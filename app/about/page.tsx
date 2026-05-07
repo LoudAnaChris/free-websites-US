@@ -13,8 +13,8 @@ import {
 import { SITE } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "About | Free Websites US by Loudachris Digital Marketing",
-  description: `${SITE.domain} is the US small-business arm of Loudachris Digital Marketing. 80+ five-star Google reviews on the parent brand. Async-only, served from Adelaide. Meet Chris, Ana, and Audrey.`,
+  title: "About | Free SEO Websites by Loudachris Digital Marketing",
+  description: `${SITE.domain} is the US small-business arm of Loudachris Digital Marketing (Adelaide, AU). 80+ five-star Google reviews on the parent brand. Async-only via email and Loom. Meet Chris, Ana, and Audrey.`,
   alternates: { canonical: `${SITE.url}/about` },
 };
 
@@ -130,7 +130,7 @@ export default function AboutPage() {
               Chris founded Loudachris Digital Marketing in Adelaide. Over the
               years he&apos;s built and ranked websites for plumbers,
               electricians, contractors, restaurants, and dozens of other small
-              businesses. The Free Websites US offer is his way of bringing the
+              businesses. The Free SEO Websites offer is his way of bringing the
               same SEO and website craft to American small businesses that can&apos;t
               justify a $5,000 upfront agency build. Everything happens async —
               email and Loom video, no calls, no time-zone scheduling pain.
@@ -144,7 +144,7 @@ export default function AboutPage() {
             >
               Every site is built personally by Chris. No outsourcing, no
               offshoring, no junior staff churning out templated work.
-              That&apos;s why the Free Websites US offer is capped at 3-4
+              That&apos;s why the Free SEO Websites offer is capped at 3-4
               new builds per month — Chris is the limit.
             </p>
             <div className="mt-7 flex items-center gap-4 flex-wrap">
@@ -247,7 +247,7 @@ export default function AboutPage() {
           <Reveal>
             <span className="eyebrow on-light">Two products, same team</span>
             <h2 className="mt-4">
-              Loudachris vs Free Websites US — what&apos;s the
+              Loudachris vs Free SEO Websites — what&apos;s the
               difference?
             </h2>
             <div
@@ -266,7 +266,7 @@ export default function AboutPage() {
               >
                 Loudachris.com.au is our full-service agency: SEO from
                 $1,500/mo, Google Ads from $500/mo, websites from $3,000.
-                Free Websites US is our entry-tier small-business arm:
+                Free SEO Websites is our entry-tier small-business arm:
                 free build, $247-$497/mo subscription, no upfront. Same team,
                 same standards, different price point.
               </p>

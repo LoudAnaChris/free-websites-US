@@ -1,4 +1,8 @@
 import type { Industry } from "./industry-types";
+import { HVAC_INDUSTRY } from "./industry-data/hvac";
+import { ELECTRICIANS_INDUSTRY } from "./industry-data/electricians";
+import { CONTRACTORS_INDUSTRY } from "./industry-data/contractors";
+import { ACCOUNTANTS_INDUSTRY } from "./industry-data/accountants";
 
 // ============================================================
 // TIER 1 - LAUNCH SPRINT (US-localised originals)
@@ -313,39 +317,9 @@ function makeTradeIndustry(opts: {
 }
 
 INDUSTRIES.push(
-  makeTradeIndustry({
-    slug: "electricians",
-    name: "Electricians",
-    pluralLower: "electricians",
-    primaryServices: "residential, commercial, emergency, panel upgrades, EV chargers, lighting, generators",
-    example: "electrician Houston",
-    bigPlayer: "Big-name electrical companies dominate page 1 of Google in most major metros",
-    yourEdge: "Service-specific searches (panel upgrade, EV charger install, generator install) and neighborhood searches each rank separately. We build pages for each.",
-    sisterIndustries: ["plumbers", "trades", "contractors"],
-    topCities: ["los-angeles", "houston", "phoenix", "dallas", "chicago"],
-  }),
-  makeTradeIndustry({
-    slug: "contractors",
-    name: "Contractors",
-    pluralLower: "contractors",
-    primaryServices: "renovations, additions, roofing, deck building, kitchens, bathrooms",
-    example: "contractor Dallas",
-    bigPlayer: "Big national franchises and design-build firms own brand searches",
-    yourEdge: "Specific build-type searches (kitchen remodel, deck build, bathroom renovation) plus neighborhood-specific pages each rank separately. We build pages for each.",
-    sisterIndustries: ["roofers", "trades", "painters"],
-    topCities: ["new-york", "houston", "dallas", "phoenix", "chicago"],
-  }),
-  makeTradeIndustry({
-    slug: "hvac",
-    name: "HVAC",
-    pluralLower: "HVAC contractors",
-    primaryServices: "AC install, AC repair, heating, furnace, heat pump, duct cleaning, emergency",
-    example: "HVAC Phoenix",
-    bigPlayer: "Major HVAC chains (One Hour, ARS, Service Experts) dominate brand searches",
-    yourEdge: "Emergency, install, repair, and equipment-specific searches each rank separately. Hot-state markets (TX, AZ, FL) reward rapid neighborhood coverage.",
-    sisterIndustries: ["plumbers", "electricians", "trades"],
-    topCities: ["phoenix", "houston", "dallas", "jacksonville", "san-antonio"],
-  }),
+  ELECTRICIANS_INDUSTRY,
+  CONTRACTORS_INDUSTRY,
+  HVAC_INDUSTRY,
   makeTradeIndustry({
     slug: "roofers",
     name: "Roofers",
@@ -378,6 +352,50 @@ INDUSTRIES.push(
     yourEdge: "Design vs maintenance, hardscaping vs softscaping, and seasonal services each rank separately. We build pages for each.",
     sisterIndustries: ["contractors", "trades"],
     topCities: ["phoenix", "los-angeles", "houston", "dallas", "charlotte"],
+  }),
+  makeTradeIndustry({
+    slug: "locksmiths",
+    name: "Locksmiths",
+    pluralLower: "locksmiths",
+    primaryServices: "emergency lockout, residential, commercial, automotive, rekey, lock installation, smart locks, safes",
+    example: "locksmith Phoenix",
+    bigPlayer: "Lead aggregator scam-locksmith sites and big franchises dominate generic emergency searches",
+    yourEdge: "Emergency, residential, commercial, automotive, and smart-lock searches each rank separately. We build dedicated pages for each plus neighborhood coverage so legitimate local customers can find you instead of the scam aggregators.",
+    sisterIndustries: ["trades"],
+    topCities: ["phoenix", "houston", "los-angeles", "dallas", "chicago"],
+  }),
+  makeTradeIndustry({
+    slug: "pest-control",
+    name: "Pest Control",
+    pluralLower: "pest control companies",
+    primaryServices: "general pest, termite, bed bug, rodent, mosquito, ant, roach, wildlife removal, commercial",
+    example: "pest control Houston",
+    bigPlayer: "Terminix, Orkin, Rollins, and other national pest-control chains own brand searches",
+    yourEdge: "Pest-specific searches (termite, bed bug, mosquito, rodent, wildlife) each rank separately. National chains run generic 'pest control [city]' but rarely rank for the pest + city + service combinations. We build pages for each.",
+    sisterIndustries: ["trades"],
+    topCities: ["houston", "phoenix", "jacksonville", "san-antonio", "charlotte"],
+  }),
+  makeTradeIndustry({
+    slug: "movers",
+    name: "Moving Companies",
+    pluralLower: "moving companies",
+    primaryServices: "local moving, long-distance, residential, commercial, apartment, packing, storage, piano and specialty",
+    example: "movers Chicago",
+    bigPlayer: "Two Men and a Truck, Allied, Atlas Van Lines, and lead-aggregator sites dominate generic moving searches",
+    yourEdge: "Local vs long-distance, residential vs commercial, and specialty (piano, antiques, fine art) each rank separately. Apartment-specific moves and neighborhood-to-neighborhood searches are winnable with dedicated pages.",
+    sisterIndustries: ["trades"],
+    topCities: ["new-york", "los-angeles", "chicago", "houston", "dallas"],
+  }),
+  makeTradeIndustry({
+    slug: "tree-services",
+    name: "Tree Services",
+    pluralLower: "tree service companies",
+    primaryServices: "removal, trimming, pruning, stump grinding, emergency, fertilization, hazard assessment",
+    example: "tree service Charlotte",
+    bigPlayer: "Davey, BrightView, and large franchise tree services own generic searches",
+    yourEdge: "Removal vs trimming vs emergency, plus storm-damage seasonal spikes, each have separate keyword profiles. Storm-prone metros (Houston, Charlotte, Jacksonville) reward fast emergency-tree-service pages.",
+    sisterIndustries: ["landscapers", "trades"],
+    topCities: ["charlotte", "houston", "jacksonville", "dallas", "phoenix"],
   })
 );
 
@@ -512,18 +530,7 @@ INDUSTRIES.push(
     sisterIndustries: ["accountants"],
     topCities: ["new-york", "chicago", "los-angeles", "houston", "dallas"],
   }),
-  makeProfessionalIndustry({
-    slug: "accountants",
-    name: "Accountants",
-    pluralLower: "accountants",
-    primaryServices: "tax prep, bookkeeping, business advisory, payroll, year-end, IRS representation",
-    example: "small business accountant Houston",
-    externalProblem: "Big chains (H&R Block, Jackson Hewitt) own brand searches. Generic 'accountant [city]' is dominated by long-established firms.",
-    internalProblem: "Your existing clients are loyal but aging. New clients via Google could refresh the book — but the firm's site doesn't rank for anything specific. Tax time gets you panic-Googlers; the rest of the year is dry.",
-    yourEdge: "Specific service searches (small business tax, CPA, S-corp, sole proprietor, LLC tax) each rank separately. Most accountant sites lump everything onto one page; we build dedicated pages for each.",
-    sisterIndustries: ["lawyers"],
-    topCities: ["new-york", "chicago", "houston", "dallas", "los-angeles"],
-  }),
+  ACCOUNTANTS_INDUSTRY,
   makeProfessionalIndustry({
     slug: "real-estate-agents",
     name: "Real Estate Agents",

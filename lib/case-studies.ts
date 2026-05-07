@@ -114,7 +114,7 @@ export const CASE_STUDIES: CaseStudy[] = [
     story: [
       "Adam Nettleton runs Adam Plumbing and Gas in Adelaide. Before working with Loudachris, he had spent 10 years on different SEO agencies that promised the world and produced nothing.",
       "Loudachris took over the SEO work. Within four months, Adam went from 13 jobs a month to 41. The lead pipeline grew faster than his ability to staff against it (a good problem).",
-      "Adam was on the Loudachris full-service plan ($1,500+/mo SEO management plus the original site build) — not the free-website subscription. The same SEO approach and team builds free-websites.com.au sites at the $247-$497/mo price point.",
+      "Adam was on the Loudachris full-service plan ($1,500+/mo SEO management plus the original site build) — not the free-website subscription. The same SEO approach and team builds Free SEO Websites sites at the $247-$497/mo price point.",
     ],
     meta: {
       title:
@@ -167,7 +167,7 @@ export const CASE_STUDIES: CaseStudy[] = [
     story: [
       "Ali Haque runs Fine Automotive Detailing in Adelaide. He was renting a workshop in Broadview when Chris started.",
       "Within three months, the visibility from Loudachris's SEO work meant Ali was getting enough work to justify his own building. He moved into his own workshop in Mylands.",
-      "Ali was on the Loudachris full-service plan, not the free-website subscription. The same approach and team builds free-website.com.au sites at the $247-$497/mo price point.",
+      "Ali was on the Loudachris full-service plan, not the free-website subscription. The same approach and team builds Free SEO Websites sites at the $247-$497/mo price point.",
     ],
     meta: {
       title:

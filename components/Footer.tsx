@@ -55,9 +55,11 @@ export function Footer() {
             <ul className="space-y-2 text-sm">
               <FooterLink href="/how-it-works">How it works</FooterLink>
               <FooterLink href="/pricing">Pricing</FooterLink>
+              <FooterLink href="/web-designer-near-me">Web designer near me</FooterLink>
               <FooterLink href="/case-studies">Case studies</FooterLink>
               <FooterLink href="/industries">All industries</FooterLink>
               <FooterLink href="/locations">All cities</FooterLink>
+              <FooterLink href="/resources">Resources</FooterLink>
               <FooterLink href="/about">About</FooterLink>
               <FooterLink href="/agreement">Agreement</FooterLink>
               <FooterLink href="/privacy">Privacy</FooterLink>

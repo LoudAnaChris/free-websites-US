@@ -528,7 +528,7 @@ export function IntakeForm() {
             </Field>
             <Field
               label="Licences or registrations with official bodies"
-              helper="Trade licence, NDIS provider number, association membership. We'll only display these if you confirm they're current."
+              helper="State trade license, professional certification, association membership. We'll only display these if you confirm they're current."
             >
               <TextArea
                 value={form.licences}
@@ -575,7 +575,7 @@ export function IntakeForm() {
             />
             <Field
               label="Who is your ideal customer?"
-              helper={`Describe in your own words. E.g. "Homeowners aged 35-65 with a problem they need fixed today" or "NDIS participants needing community access support."`}
+              helper={`Describe in your own words. E.g. "Homeowners aged 35-65 with a problem they need fixed today" or "Small business owners with under 50 staff looking to switch accountants."`}
             >
               <TextArea
                 value={form.idealCustomer}
@@ -1096,7 +1096,7 @@ export function IntakeForm() {
             </Field>
             <Field
               label="Compliance, regulatory, or industry rules we should be aware of"
-              helper="E.g. NDIS Practice Standards, ACCC consumer guarantees, industry advertising codes."
+              helper="E.g. state bar advertising rules, state medical board rules, FTC endorsement guidelines, industry advertising codes."
             >
               <TextArea
                 value={form.complianceRules}

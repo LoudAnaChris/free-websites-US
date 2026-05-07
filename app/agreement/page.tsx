@@ -7,9 +7,9 @@ import { breadcrumbSchema } from "@/lib/schema";
 import { SITE } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Service Agreement | Free Websites US",
+  title: "Service Agreement | Free SEO Websites by Loudachris",
   description:
-    "The exact terms of the Free Websites US offer. 90-day qualified-lead guarantee mechanics, what counts as a lead, exclusions, cancellation rules. All public.",
+    "The exact terms of the Free SEO Websites offer. 5-day build SLA, 90-day qualified-lead guarantee mechanics, what counts as a lead, exclusions, cancellation rules. All public.",
   alternates: { canonical: `${SITE.url}/agreement` },
   robots: { index: true, follow: true },
 };
@@ -18,7 +18,7 @@ const SECTIONS = [
   {
     h: "1. The offer",
     body: [
-      "Free Websites US (operated by Loudachris Digital Marketing — 'we', 'us') will design, build, and launch a website ('Site') for the Client at no upfront charge. The Client pays a recurring monthly fee ('Care Fee') for hosting, security, ranking work, monthly content, monitoring, and minor edits.",
+      "Free SEO Websites (operated by Loudachris Digital Marketing — 'we', 'us') will design, build, and launch a website ('Site') for the Client at no upfront charge. The Client pays a recurring monthly fee ('Care Fee') for hosting, security, ranking work, monthly content, monitoring, and minor edits.",
       "Three Care Fee plans:",
       "<ul><li><strong>$247/month</strong> USD, 12-month minimum term, price locked 24 months.</li><li><strong>$397/month</strong> USD, 6-month minimum term.</li><li><strong>$497/month</strong> USD, no minimum term, cancel any time with 30 days notice.</li></ul>",
       "All prices are in US dollars and exclusive of any applicable state or local sales taxes that may apply to the Client's jurisdiction.",

@@ -19,8 +19,8 @@ import { INDUSTRIES } from "@/lib/industries";
 import type { IndustryCategory } from "@/lib/industry-types";
 
 export const metadata: Metadata = {
-  title: "Free Websites by Industry | Tradies, NDIS, Hospitality & More",
-  description: `Loudachris builds free SEO websites for ${INDUSTRIES.length}+ Australian small-business industries. Find your industry below or call us on ${SITE.phone}.`,
+  title: "Free SEO Websites by Industry | Plumbers, HVAC, Contractors & More",
+  description: `Loudachris builds free SEO websites for ${INDUSTRIES.length}+ US small-business industries. Plumbers, HVAC, electricians, contractors, accountants, lawyers, restaurants, and more. Find your industry below.`,
   alternates: { canonical: `${SITE.url}/industries` },
 };
 
@@ -32,42 +32,42 @@ const CATEGORY_META: Record<
     label: "Trades",
     eyebrow: "Trades",
     intro:
-      "Plumbers, electricians, builders, handymen, landscapers — every trade has its own SEO landscape. We build pages for the specific work each trade gets hired for.",
+      "Plumbers, HVAC, electricians, contractors, roofers, landscapers, painters. Every trade has its own SEO landscape. We build pages for the specific work each trade gets hired for, in the cities your customers search from.",
     Icon: Wrench,
   },
   professional: {
     label: "Professional services",
     eyebrow: "Professional services",
     intro:
-      "Lawyers, accountants, photographers, migration agents, real estate. Clients research before they call. We build the content and authority pages they read.",
+      "Lawyers, accountants, real estate agents, photographers. Clients research before they call. We build the content and authority pages they read.",
     Icon: Briefcase,
   },
   "home-services": {
     label: "Home services",
     eyebrow: "Home services",
     intro:
-      "Cleaning, mould removal, tree removal, retaining walls. Specialty home-service work that needs trust and visibility on Google.",
+      "Cleaning, pest control, locksmiths, movers, tree services. Specialty home-service work that needs trust signals and visibility on Google for local + service searches.",
     Icon: Building2,
   },
   lifestyle: {
     label: "Lifestyle and personal services",
     eyebrow: "Lifestyle",
     intro:
-      "Hairdressers, beauty salons, personal trainers, makeup artists, tutors, dog walkers, pet groomers. Small business that grows on suburb-level search.",
+      "Hair salons, beauty salons, personal trainers, makeup artists, tutors, pet groomers. Small businesses that grow on neighborhood-level search.",
     Icon: Sparkles,
   },
   hospitality: {
     label: "Hospitality",
     eyebrow: "Hospitality",
     intro:
-      "Restaurants, cafes, food trucks. Local pack ranking and dedicated function/booking pages.",
+      "Restaurants, cafes, food trucks. Local pack ranking and dedicated booking / reservation / catering pages built for the way US diners search.",
     Icon: Utensils,
   },
   specialty: {
     label: "Specialty",
     eyebrow: "Specialty",
     intro:
-      "NDIS providers and other specialty industries with their own compliance and search behaviour.",
+      "Pool builders, disability-services providers, and other specialty industries with their own compliance and search behaviour.",
     Icon: Heart,
   },
 };
@@ -106,10 +106,10 @@ export default function IndustriesHubPage() {
         title={
           <>
             Free websites for{" "}
-            <span className="rose-underline">{INDUSTRIES.length}+ Australian industries.</span>
+            <span className="rose-underline">{INDUSTRIES.length}+ US small-business industries.</span>
           </>
         }
-        subtitle={`Trades, NDIS, professional services, hospitality, lifestyle. Each industry page covers trade-specific copy, keyword research, and case-study fit. Same offer, same 5-day build, same $247/mo.`}
+        subtitle={`Plumbers, HVAC, electricians, contractors, accountants, lawyers, restaurants, real estate, and more. Each industry page covers trade-specific copy, US keyword research, and case-study fit. Same offer, same 5-day build, same $247/mo.`}
         ctaLabel="See if I qualify"
         ctaHref="/#qualifier"
       />
