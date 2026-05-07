@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   alternates: { canonical: `${SITE.url}/locations` },
 };
 
-// US regional groupings — Northeast, South, Midwest, West
+// US regional groupings  - Northeast, South, Midwest, West
 const REGION_GROUPS: { region: string; states: string[] }[] = [
   { region: "Northeast", states: ["NY", "PA"] },
   { region: "South", states: ["TX", "FL", "NC"] },
@@ -73,7 +73,7 @@ export default function LocationsHubPage() {
             <span className="rose-underline">small businesses across the US.</span>
           </>
         }
-        subtitle={`We build SEO websites for US small businesses in 14 major cities — from NYC to Phoenix to Indianapolis. Each city page is built around the local search market and the businesses who'd actually choose us.`}
+        subtitle={`We build SEO websites for US small businesses in 14 major cities  - from NYC to Phoenix to Indianapolis. Each city page is built around the local search market and the businesses who'd actually choose us.`}
         ctaLabel="See if I qualify"
         ctaHref="/#qualifier"
       />

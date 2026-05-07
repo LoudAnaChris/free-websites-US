@@ -132,7 +132,7 @@ export default function AboutPage() {
               electricians, contractors, restaurants, and dozens of other small
               businesses. The Free SEO Websites offer is his way of bringing the
               same SEO and website craft to American small businesses that can&apos;t
-              justify a $5,000 upfront agency build. Everything happens async —
+              justify a $5,000 upfront agency build. Everything happens async  -
               email and Loom video, no calls, no time-zone scheduling pain.
             </p>
             <p
@@ -145,7 +145,7 @@ export default function AboutPage() {
               Every site is built personally by Chris. No outsourcing, no
               offshoring, no junior staff churning out templated work.
               That&apos;s why the Free SEO Websites offer is capped at 3-4
-              new builds per month — Chris is the limit.
+              new builds per month  - Chris is the limit.
             </p>
             <div className="mt-7 flex items-center gap-4 flex-wrap">
               <a
@@ -247,7 +247,7 @@ export default function AboutPage() {
           <Reveal>
             <span className="eyebrow on-light">Two products, same team</span>
             <h2 className="mt-4">
-              Loudachris vs Free SEO Websites — what&apos;s the
+              Loudachris vs Free SEO Websites  - what&apos;s the
               difference?
             </h2>
             <div

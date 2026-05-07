@@ -98,7 +98,7 @@ export default function CaseStudiesPage() {
               Click any card to play. Note: each of these clients is on
               Loudachris&apos;s full-service plan, not the $247/mo
               free-website subscription. The team and SEO approach is
-              identical — same craft, different price point.
+              identical  - same craft, different price point.
             </p>
           </Reveal>
 

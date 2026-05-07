@@ -195,7 +195,7 @@ export function IntakeForm() {
               <TextInput
                 value={form.businessName}
                 onChange={(v) => update("businessName", v)}
-                placeholder="e.g. Adelaide's Bathroom Network"
+                placeholder="e.g. Phoenix Bathroom Renovations"
                 required
               />
             </Field>
@@ -231,7 +231,7 @@ export function IntakeForm() {
               <TextInput
                 value={form.basedAt}
                 onChange={(v) => update("basedAt", v)}
-                placeholder="e.g. Wayville, SA"
+                placeholder="e.g. Phoenix, AZ"
               />
             </Field>
           </>
@@ -252,7 +252,7 @@ export function IntakeForm() {
               <TextArea
                 value={form.serviceAreas}
                 onChange={(v) => update("serviceAreas", v)}
-                placeholder="e.g. Adelaide CBD, Norwood, Glenelg, Prospect, Stirling..."
+                placeholder="e.g. Downtown Phoenix, Scottsdale, Tempe, Mesa, Chandler..."
                 rows={3}
               />
             </Field>
@@ -298,17 +298,17 @@ export function IntakeForm() {
                 ]}
               />
             </Field>
-            <Field label="Brand colours">
+            <Field label="Brand colors">
               <RadioGroup
                 name="brandColoursType"
                 value={form.brandColoursType}
                 onChange={(v) => update("brandColoursType", v)}
                 options={[
-                  { value: "specific", label: "I have specific brand colours" },
+                  { value: "specific", label: "I have specific brand colors" },
                   { value: "rough", label: "I have a rough idea (e.g. blue and white)" },
                   {
                     value: "you-decide",
-                    label: "You decide. Choose colours that work for my industry.",
+                    label: "You decide. Choose colors that work for my industry.",
                   },
                 ]}
               />
@@ -531,8 +531,8 @@ export function IntakeForm() {
               helper="State trade license, professional certification, association membership. We'll only display these if you confirm they're current."
             >
               <TextArea
-                value={form.licences}
-                onChange={(v) => update("licences", v)}
+                value={form.licenses}
+                onChange={(v) => update("licenses", v)}
                 rows={3}
               />
             </Field>
@@ -682,7 +682,7 @@ export function IntakeForm() {
             </Field>
             <Field
               label="Best three customer testimonials"
-              helper="Paste them in. First name and suburb only — no full names."
+              helper="Paste them in. First name and suburb only  - no full names."
             >
               <TextArea
                 value={form.testimonial1}
@@ -759,7 +759,7 @@ export function IntakeForm() {
             />
             <Field
               label="What do you think customers type into Google to find a business like yours?"
-              helper={`Up to 10 phrases. E.g. "emergency plumber Adelaide", "wedding photographer Sydney". If you're not sure, write "You decide" and we'll do keyword research and pick the best ones.`}
+              helper={`Up to 10 phrases. E.g. "emergency plumber Phoenix", "wedding photographer Austin", "S-corp tax prep Houston". If you're not sure, write "You decide" and we'll do US keyword research and pick the best ones.`}
             >
               <TextArea
                 value={form.keywords}
@@ -1057,9 +1057,9 @@ export function IntakeForm() {
                 value={form.plan}
                 onChange={(v) => update("plan", v)}
                 options={[
-                  { value: "247-12", label: "$247/month for 12 months — Best Value" },
-                  { value: "397-6", label: "$397/month for 6 months — Try Before You Commit" },
-                  { value: "497-none", label: "$497/month, no minimum term — Maximum Flexibility" },
+                  { value: "247-12", label: "$247/month for 12 months  - Best Value" },
+                  { value: "397-6", label: "$397/month for 6 months  - Try Before You Commit" },
+                  { value: "497-none", label: "$497/month, no minimum term  - Maximum Flexibility" },
                 ]}
               />
             </Field>
@@ -1226,7 +1226,7 @@ export function IntakeForm() {
             {submitting
               ? "Submitting..."
               : isLast
-              ? "Submit intake — start build clock"
+              ? "Submit intake  - start build clock"
               : "Continue"}{" "}
             {!submitting && <ArrowRight size={16} strokeWidth={2.5} />}
           </button>

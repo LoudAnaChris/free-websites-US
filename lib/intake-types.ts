@@ -37,7 +37,7 @@ export type IntakeFormState = {
   betterThanCompetitors: string;
   awards: string;
   yearsExperience: string;
-  licences: string;
+  licenses: string;
   publicLiability: string;
   professionalIndemnity: string;
   workersComp: "yes" | "no" | "na" | "";
@@ -154,7 +154,7 @@ export const INTAKE_INITIAL: IntakeFormState = {
   betterThanCompetitors: "",
   awards: "",
   yearsExperience: "",
-  licences: "",
+  licenses: "",
   publicLiability: "",
   professionalIndemnity: "",
   workersComp: "",

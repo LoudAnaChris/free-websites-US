@@ -89,10 +89,10 @@ export async function POST(request: Request) {
     <h2 style="font-size:16px;color:#E357AB;text-transform:uppercase;letter-spacing:0.12em;margin:24px 0 12px;">2. Branding</h2>
     <table style="width:100%;border-collapse:collapse;font-size:14px;">
       ${row("Logo status", body.logoStatus)}
-      ${row("Brand colours", body.brandColoursType + (body.brandColoursValue ? ` — ${body.brandColoursValue}` : ""))}
-      ${row("Brand fonts", body.brandFontsType + (body.brandFontsValue ? ` — ${body.brandFontsValue}` : ""))}
+      ${row("Brand colors", body.brandColoursType + (body.brandColoursValue ? `  - ${body.brandColoursValue}` : ""))}
+      ${row("Brand fonts", body.brandFontsType + (body.brandFontsValue ? `  - ${body.brandFontsValue}` : ""))}
       ${row("Brand personality", (body.brandPersonality || []).join(", "))}
-      ${row("Tagline", body.taglineType + (body.taglineValue ? ` — ${body.taglineValue}` : ""))}
+      ${row("Tagline", body.taglineType + (body.taglineValue ? `  - ${body.taglineValue}` : ""))}
       ${row("Websites they like", body.websitesILike)}
       ${row("Websites they don't like", body.websitesIDontLike)}
     </table>
@@ -102,7 +102,7 @@ export async function POST(request: Request) {
       ${row("Main service", body.mainService)}
       ${row("Other services", body.otherServices)}
       ${row("Service descriptions", body.serviceDescriptions)}
-      ${row("Emergency services", body.emergencyHas + (body.emergencyWhich ? ` — ${body.emergencyWhich}` : ""))}
+      ${row("Emergency services", body.emergencyHas + (body.emergencyWhich ? `  - ${body.emergencyWhich}` : ""))}
       ${row("Offerings", (body.offerings || []).join(", "))}
       ${row("Warranty length", body.warrantyLength)}
     </table>
@@ -135,7 +135,7 @@ export async function POST(request: Request) {
 
     <h2 style="font-size:16px;color:#E357AB;text-transform:uppercase;letter-spacing:0.12em;margin:24px 0 12px;">6. Reviews & proof</h2>
     <table style="width:100%;border-collapse:collapse;font-size:14px;">
-      ${row("Google Business Profile", body.gbpStatus + (body.gbpUrl ? ` — ${body.gbpUrl}` : ""))}
+      ${row("Google Business Profile", body.gbpStatus + (body.gbpUrl ? `  - ${body.gbpUrl}` : ""))}
       ${row("Review count", body.reviewCount)}
       ${row("Testimonial 1", body.testimonial1)}
       ${row("Testimonial 2", body.testimonial2)}
@@ -156,7 +156,7 @@ export async function POST(request: Request) {
       ${row("Phone", body.phone)}
       ${row("Email", body.email)}
       ${row("Hours", body.hours)}
-      ${row("Display address", body.displayAddress + (body.publicAddress ? ` — ${body.publicAddress}` : ""))}
+      ${row("Display address", body.displayAddress + (body.publicAddress ? `  - ${body.publicAddress}` : ""))}
       ${row("Service area description", body.serviceAreaDescription)}
       ${row("Facebook", body.facebook)}
       ${row("Instagram", body.instagram)}
@@ -172,7 +172,7 @@ export async function POST(request: Request) {
       ${row("Existing domain", body.existingDomain)}
       ${row("Registrar", body.registrar)}
       ${row("Existing website", body.existingWebsite)}
-      ${row("Carry over", body.carryOverType + (body.carryOverPages ? ` — ${body.carryOverPages}` : ""))}
+      ${row("Carry over", body.carryOverType + (body.carryOverPages ? `  - ${body.carryOverPages}` : ""))}
     </table>
 
     <h2 style="font-size:16px;color:#E357AB;text-transform:uppercase;letter-spacing:0.12em;margin:24px 0 12px;">10. Tracking & forms</h2>
@@ -181,7 +181,7 @@ export async function POST(request: Request) {
       ${row("GA email", body.gaEmail)}
       ${row("GSC email", body.gscEmail)}
       ${row("GBP email", body.gbpEmail)}
-      ${row("Ads running", body.adsRunning + (body.adsDetails ? ` — ${body.adsDetails}` : ""))}
+      ${row("Ads running", body.adsRunning + (body.adsDetails ? `  - ${body.adsDetails}` : ""))}
       ${row("Form type", body.formType)}
       ${row("Form fields", (body.formFields || []).join(", "))}
     </table>
@@ -238,7 +238,7 @@ export async function POST(request: Request) {
     }
 
     // ============================================================
-    // EMAIL 2: Confirmation to applicant — build clock has started
+    // EMAIL 2: Confirmation to applicant  - build clock has started
     // ============================================================
 
     const applicantHtml = `
@@ -268,12 +268,12 @@ export async function POST(request: Request) {
     </ol>
 
     <p style="font-size:15px;line-height:1.6;margin:24px 0 8px;">Any questions, just reply to this email.</p>
-    <p style="font-size:15px;line-height:1.6;margin:0;color:#6b7a82;">— Chris Lourenco<br>Loudachris Digital Marketing<br>ABN 73 630 143 190</p>
+    <p style="font-size:15px;line-height:1.6;margin:0;color:#6b7a82;"> - Chris Lourenco<br>Loudachris Digital Marketing<br>ABN 73 630 143 190</p>
   </div>
 </div>
     `.trim();
 
-    const applicantText = `Hi ${body.signedName.split(" ")[0] || "there"},\n\nYour intake form for ${body.businessName} is in. Your 5-working-day build clock started just now.\n\nReference: ${ref}\nSubmitted: ${submittedAt} ACST\nPlan: ${body.plan || "(to confirm)"}\n\nWhat happens next:\n1. By end of next business day, Chris confirms receipt and the exact start date of the 5-day clock.\n2. Days 2-3: You receive a Loom video walkthrough of your first preview.\n3. Days 3-4: You give written feedback (one round, up to 5 changes).\n4. Day 5: Final review, launch, and tracking confirmed.\n5. Your first invoice is issued only after the site is live and tracking is verified.\n\nAny questions, just reply to this email.\n\n— Chris Lourenco\nLoudachris Digital Marketing\nABN 73 630 143 190`;
+    const applicantText = `Hi ${body.signedName.split(" ")[0] || "there"},\n\nYour intake form for ${body.businessName} is in. Your 5-working-day build clock started just now.\n\nReference: ${ref}\nSubmitted: ${submittedAt} ACST\nPlan: ${body.plan || "(to confirm)"}\n\nWhat happens next:\n1. By end of next business day, Chris confirms receipt and the exact start date of the 5-day clock.\n2. Days 2-3: You receive a Loom video walkthrough of your first preview.\n3. Days 3-4: You give written feedback (one round, up to 5 changes).\n4. Day 5: Final review, launch, and tracking confirmed.\n5. Your first invoice is issued only after the site is live and tracking is verified.\n\nAny questions, just reply to this email.\n\n - Chris Lourenco\nLoudachris Digital Marketing\nABN 73 630 143 190`;
 
     const { error: err2 } = await resend.emails.send({
       from,
@@ -285,7 +285,7 @@ export async function POST(request: Request) {
     });
 
     if (err2) {
-      // Chris's email already sent — log but still succeed to applicant
+      // Chris's email already sent  - log but still succeed to applicant
       console.error("[intake] Resend error to applicant:", JSON.stringify(err2));
     }
 

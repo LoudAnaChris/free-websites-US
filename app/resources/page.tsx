@@ -51,6 +51,41 @@ const ARTICLES = [
     href: "/resources/is-wordpress-good-for-small-business-website",
     readTime: "6 min read",
   },
+  {
+    title: "How to Design a Website for a Small Business",
+    blurb:
+      "Step-by-step: customer-first hierarchy, mobile-first design, schema markup, CTA placement, and the common mistakes that kill conversions.",
+    href: "/resources/how-to-design-website-for-small-business",
+    readTime: "7 min read",
+  },
+  {
+    title: "How to Start a Website for a Small Business",
+    blurb:
+      "Five steps from domain selection to live site: platform comparison, content basics, analytics setup, GBP alignment, and going live.",
+    href: "/resources/how-to-start-website-for-small-business",
+    readTime: "7 min read",
+  },
+  {
+    title: "SEO for Small Business: A Plain-English Guide",
+    blurb:
+      "What SEO actually is, the three pillars (technical, content, local), how to research keywords, GBP setup, content cadence, when DIY is enough.",
+    href: "/resources/seo-for-small-business-guide",
+    readTime: "9 min read",
+  },
+  {
+    title: "Google Business Profile for Small Business",
+    blurb:
+      "How to rank in the Local Pack: complete profile, NAP consistency, primary category strategy, reviews, posts, photos, common mistakes.",
+    href: "/resources/google-business-profile-small-business",
+    readTime: "7 min read",
+  },
+  {
+    title: "Website vs Social Media: Which Should a Small Business Prioritize?",
+    blurb:
+      "Both, but if you can only pick one, pick the website. Rented vs owned, the algorithm problem, search vs social intent, conversion comparison.",
+    href: "/resources/website-vs-social-media-small-business",
+    readTime: "6 min read",
+  },
 ];
 
 export default function ResourcesHubPage() {
@@ -86,7 +121,7 @@ export default function ResourcesHubPage() {
           <Reveal className="mb-10 max-w-3xl">
             <span className="eyebrow on-light">Where to start</span>
             <h2 className="mt-4">
-              Five guides that cover 90% of what owners ask us.
+              Ten guides that cover 95% of what owners ask us.
             </h2>
             <p
               className="mt-5 text-lg"
@@ -173,7 +208,7 @@ export default function ResourcesHubPage() {
               className="mt-5 text-lg"
               style={{ color: "var(--color-ink-2)", lineHeight: 1.7 }}
             >
-              We&apos;d rather you read these five guides, decide DIY is fine,
+              We&apos;d rather you read these ten guides, decide DIY is fine,
               and never become a customer than have you sign up confused.
               Educated owners make better decisions, complain less, and stay
               longer when they do hire us. That&apos;s the whole strategy.

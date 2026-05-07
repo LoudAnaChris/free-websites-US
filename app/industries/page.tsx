@@ -67,7 +67,7 @@ const CATEGORY_META: Record<
     label: "Specialty",
     eyebrow: "Specialty",
     intro:
-      "Pool builders, disability-services providers, and other specialty industries with their own compliance and search behaviour.",
+      "Pool builders, disability-services providers, and other specialty industries with their own compliance and search behavior.",
     Icon: Heart,
   },
 };

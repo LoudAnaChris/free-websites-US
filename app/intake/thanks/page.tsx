@@ -4,7 +4,7 @@ import { CheckCircle2, Mail, Clock, ArrowRight } from "lucide-react";
 import { SITE } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Intake submitted — your build clock has started | Loudachris",
+  title: "Intake submitted - your build clock has started | Free SEO Websites",
   description:
     "Your intake form is in and your 5-working-day build clock has started. Thank you for choosing Loudachris.",
   robots: {

@@ -12,6 +12,11 @@ const RESOURCE_SLUGS = [
   "how-much-does-website-cost-small-business",
   "best-website-builder-small-business-comparison",
   "is-wordpress-good-for-small-business-website",
+  "how-to-design-website-for-small-business",
+  "how-to-start-website-for-small-business",
+  "seo-for-small-business-guide",
+  "google-business-profile-small-business",
+  "website-vs-social-media-small-business",
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {

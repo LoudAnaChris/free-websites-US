@@ -3,6 +3,15 @@ import { HVAC_INDUSTRY } from "./industry-data/hvac";
 import { ELECTRICIANS_INDUSTRY } from "./industry-data/electricians";
 import { CONTRACTORS_INDUSTRY } from "./industry-data/contractors";
 import { ACCOUNTANTS_INDUSTRY } from "./industry-data/accountants";
+import { LAWYERS_INDUSTRY } from "./industry-data/lawyers";
+import { REAL_ESTATE_AGENTS_INDUSTRY } from "./industry-data/real-estate-agents";
+import { RESTAURANTS_INDUSTRY } from "./industry-data/restaurants";
+import { PHOTOGRAPHERS_INDUSTRY } from "./industry-data/photographers";
+import { ROOFERS_INDUSTRY } from "./industry-data/roofers";
+import { LANDSCAPERS_INDUSTRY } from "./industry-data/landscapers";
+import { CLEANERS_INDUSTRY } from "./industry-data/cleaners";
+import { CAFES_INDUSTRY } from "./industry-data/cafes";
+import { POOL_BUILDERS_INDUSTRY } from "./industry-data/pool-builders";
 
 // ============================================================
 // TIER 1 - LAUNCH SPRINT (US-localised originals)
@@ -41,7 +50,7 @@ export const INDUSTRIES: Industry[] = [
       question: "How does a free trade website actually work?",
       paragraphs: [
         "A free trade website built by Loudachris costs $0 upfront and $247/month (12-month plan) for hosting plus SEO bundled. We build the site in 5 working days. The 90-day lead guarantee means first qualified lead within 90 days, or we keep working at no cost. Most builds rank top 10 on Google for their primary trade + city keyword within 45 days.",
-        "Think <em>plumber Houston</em>, <em>electrician Phoenix</em>, <em>contractor Dallas</em> — these are the searches that turn into calls. We build for those, not for awards.",
+        "Think <em>plumber Houston</em>, <em>electrician Phoenix</em>, <em>contractor Dallas</em>  - these are the searches that turn into calls. We build for those, not for awards.",
       ],
     },
     whatYouGet: [
@@ -58,7 +67,7 @@ export const INDUSTRIES: Industry[] = [
       {
         icon: "MapPin",
         title: "Service-area depth",
-        body: "Trade SEO lives in service-area pages — plumber Brooklyn, plumber Queens, plumber Bronx. We build the structure for these and add one new area or service page every month.",
+        body: "Trade SEO lives in service-area pages  - plumber Brooklyn, plumber Queens, plumber Bronx. We build the structure for these and add one new area or service page every month.",
       },
     ],
     caseStudyVideoId: "AAelWSuGzAE",
@@ -69,7 +78,7 @@ export const INDUSTRIES: Industry[] = [
       },
       {
         q: "Why do most trade websites fail to rank on Google?",
-        a: "Three reasons. One: cheap drag-and-drop builders skip schema markup, fast hosting, and proper page structure. Two: there's no ongoing SEO work — content stays static, no new service-area pages, no Google Business Profile alignment. Three: they don't track which searches drive calls, so the site can't be improved over time. We fix all three.",
+        a: "Three reasons. One: cheap drag-and-drop builders skip schema markup, fast hosting, and proper page structure. Two: there's no ongoing SEO work  - content stays static, no new service-area pages, no Google Business Profile alignment. Three: they don't track which searches drive calls, so the site can't be improved over time. We fix all three.",
       },
       {
         q: "How long does it take to build a trade website?",
@@ -77,7 +86,7 @@ export const INDUSTRIES: Industry[] = [
       },
       {
         q: "Will my website show up on Google for my city?",
-        a: "Most of our trade builds rank top 10 for the city + service keyword within 45-60 days. The 90-day qualified-lead guarantee is in writing — first lead within 90 days, or we keep working at no cost.",
+        a: "Most of our trade builds rank top 10 for the city + service keyword within 45-60 days. The 90-day qualified-lead guarantee is in writing  - first lead within 90 days, or we keep working at no cost.",
       },
       {
         q: "Do you work with plumbers, electricians, contractors, AND HVAC?",
@@ -110,7 +119,7 @@ export const INDUSTRIES: Industry[] = [
     parentIndustry: "trades",
     hero: {
       eyebrow: "For US plumbers",
-      titleLead: "Water heaters, blocked drains, emergencies —",
+      titleLead: "Water heaters, blocked drains, emergencies  -",
       titleAccent: "the calls you should be getting.",
       subtitle:
         "Right now those calls are going to a plumber whose website ranks higher than yours. We fix that with a free 5-day SEO build, $247/mo, and a 90-day lead guarantee. Built around the searches plumbers get hired from.",
@@ -127,27 +136,27 @@ export const INDUSTRIES: Industry[] = [
       heading: "Why most plumber websites don't get the phone ringing.",
       paragraphs: [
         "<strong>You're paying Angi or Thumbtack a cut on every lead.</strong> Or you're spending the equivalent on Google Ads. Either way, the work comes in but the margin is gone before you start. You can't price your way out because the next plumber on the list is doing the same math.",
-        "<strong>Your old website doesn't know what plumbers get hired for.</strong> No emergency page. No water heater repair page. No neighborhood pages. Google can't tell what you do or where you do it. Customers searching <em>emergency plumber Brooklyn</em> at 11pm aren't finding you — they're finding the plumber two neighborhoods over.",
-        "<strong>You've got no idea what's working.</strong> Last week's three calls — were they Google? Word of mouth? The Yellow Pages ad you're still paying for? Without call tracking, you're guessing. And the agency that took your $1,500/mo never showed you a single keyword report.",
+        "<strong>Your old website doesn't know what plumbers get hired for.</strong> No emergency page. No water heater repair page. No neighborhood pages. Google can't tell what you do or where you do it. Customers searching <em>emergency plumber Brooklyn</em> at 11pm aren't finding you  - they're finding the plumber two neighborhoods over.",
+        "<strong>You've got no idea what's working.</strong> Last week's three calls  - were they Google? Word of mouth? The Yellow Pages ad you're still paying for? Without call tracking, you're guessing. And the agency that took your $1,500/mo never showed you a single keyword report.",
       ],
     },
     answerBox: {
       question: "How does a free plumber website actually work?",
       paragraphs: [
         "We build the site in 5 working days for $0 upfront. After launch, you pay $247/mo (12-month plan), $397/mo (6-month), or $497/mo (no lock-in) for hosting, SEO, call tracking, monthly ranking work, and one new content piece every month. The 90-day lead guarantee means first qualified plumbing lead within 90 days, or we keep working at no cost.",
-        "The site is built around the searches plumbers get hired from — <em>emergency plumber [city]</em>, <em>water heater repair [neighborhood]</em>, <em>drain cleaning [zip]</em> — not generic templates that look nice but rank nowhere.",
+        "The site is built around the searches plumbers get hired from  - <em>emergency plumber [city]</em>, <em>water heater repair [neighborhood]</em>, <em>drain cleaning [zip]</em>  - not generic templates that look nice but rank nowhere.",
       ],
     },
     whatYouGet: [
       {
         icon: "Droplet",
         title: "Service-specific pages",
-        body: "Water heater, drain cleaning, gas, emergency — each gets its own page targeting the specific searches plumbers get hired from.",
+        body: "Water heater, drain cleaning, gas, emergency  - each gets its own page targeting the specific searches plumbers get hired from.",
       },
       {
         icon: "MapPin",
         title: "Neighborhood-level SEO",
-        body: "If you service Manhattan, Brooklyn, Queens, Bronx — each gets a service-area page over time. Monthly content adds one new area per month.",
+        body: "If you service Manhattan, Brooklyn, Queens, Bronx  - each gets a service-area page over time. Monthly content adds one new area per month.",
       },
       {
         icon: "Phone",
@@ -160,7 +169,7 @@ export const INDUSTRIES: Industry[] = [
     faq: [
       {
         q: "How much does a plumber website cost?",
-        a: "Most agencies charge plumbers $3,000-$8,000 upfront plus $500-$1,500/mo for SEO. Free Websites US by Loudachris charges $0 upfront and $247/mo (12-month plan) bundled — hosting, SEO, call tracking, monthly content. First payment only after the site is live and tracking confirmed.",
+        a: "Most agencies charge plumbers $3,000-$8,000 upfront plus $500-$1,500/mo for SEO. Free Websites US by Loudachris charges $0 upfront and $247/mo (12-month plan) bundled  - hosting, SEO, call tracking, monthly content. First payment only after the site is live and tracking confirmed.",
       },
       {
         q: "Will my plumbing website rank on Google?",
@@ -172,7 +181,7 @@ export const INDUSTRIES: Industry[] = [
       },
       {
         q: "How is this different from Angi or Thumbtack?",
-        a: "Angi and Thumbtack are paid lead networks where you pay per lead and compete with 5+ other plumbers. We build YOU a website that ranks for plumber searches in your city — the leads come direct to your phone, no commission, no race-to-the-bottom on price.",
+        a: "Angi and Thumbtack are paid lead networks where you pay per lead and compete with 5+ other plumbers. We build YOU a website that ranks for plumber searches in your city  - the leads come direct to your phone, no commission, no race-to-the-bottom on price.",
       },
       {
         q: "Can I see a real plumber example?",
@@ -184,7 +193,7 @@ export const INDUSTRIES: Industry[] = [
       heading: "By month three, the phone's ringing for the right reasons.",
       paragraphs: [
         "<strong>Week 1:</strong> Site live. Adam Plumbing-style page architecture: emergency, water heater, drains, gas. Every neighborhood you cover gets coverage in the first wave.",
-        "<strong>Month 1:</strong> First qualified lead from Google. Often a water heater emergency at 7pm — the job that pays the rent for the week.",
+        "<strong>Month 1:</strong> First qualified lead from Google. Often a water heater emergency at 7pm  - the job that pays the rent for the week.",
         "<strong>Month 2:</strong> Multiple weekly leads. You can stop the Angi subscription. The Google Ads agency that was costing $1,500/mo? Gone.",
         "<strong>Month 3:</strong> The 90-day guarantee's done. You're getting more direct inquiries than you ever did from paid channels. And the site keeps compounding because we add a new neighborhood or service page every month.",
       ],
@@ -229,7 +238,7 @@ function makeTradeIndustry(opts: {
     parentIndustry: opts.parentIndustry || "trades",
     hero: {
       eyebrow: `For US ${lower}`,
-      titleLead: `${services} —`,
+      titleLead: `${services}  -`,
       titleAccent: `the searches you should rank for.`,
       subtitle: `Right now those searches are going to a ${Name.toLowerCase().replace(/s$/, "")} whose website ranks higher than yours. We fix that with a free 5-day SEO build, $247/mo, and a 90-day lead guarantee.`,
       bullets: [
@@ -244,8 +253,8 @@ function makeTradeIndustry(opts: {
       eyebrow: "What you've been dealing with",
       heading: `Why most ${Name.toLowerCase()} websites don't generate leads.`,
       paragraphs: [
-        `<strong>${opts.bigPlayer}.</strong> They've got the marketing budget you don't, and they take the obvious top searches. The only way to win is to rank for the searches they're not chasing — the specific service + neighborhood combinations that convert.`,
-        `<strong>Your old site doesn't have the page structure to rank.</strong> Templates skip schema markup, separate service pages, and neighborhood coverage. Google sees a generic homepage and can't connect you to <em>${opts.example}</em> — the search that pays.`,
+        `<strong>${opts.bigPlayer}.</strong> They've got the marketing budget you don't, and they take the obvious top searches. The only way to win is to rank for the searches they're not chasing  - the specific service + neighborhood combinations that convert.`,
+        `<strong>Your old site doesn't have the page structure to rank.</strong> Templates skip schema markup, separate service pages, and neighborhood coverage. Google sees a generic homepage and can't connect you to <em>${opts.example}</em>  - the search that pays.`,
         `<strong>You've got no idea what's working.</strong> No call tracking. No keyword report. The leads come in from <em>somewhere</em> but you can't double down on what works because you can't see it.`,
       ],
     },
@@ -253,7 +262,7 @@ function makeTradeIndustry(opts: {
       question: `How does a free ${Name.toLowerCase().replace(/s$/, "")} website actually work?`,
       paragraphs: [
         `We build the site in 5 working days for $0 upfront. After launch, $247/mo (12-month plan), $397/mo (6-month), or $497/mo (no lock-in). Hosting, SEO, call tracking, monthly ranking work, and one new content piece every month are bundled. The 90-day lead guarantee means first qualified ${Name.toLowerCase().replace(/s$/, "")} lead within 90 days, or we keep working at no cost.`,
-        `The site is built around the searches ${lower} get hired from — not generic templates. ${opts.yourEdge}`,
+        `The site is built around the searches ${lower} get hired from  - not generic templates. ${opts.yourEdge}`,
       ],
     },
     whatYouGet: opts.iconBlocks || [
@@ -288,11 +297,11 @@ function makeTradeIndustry(opts: {
     faq: [
       {
         q: `How much does a ${Name.toLowerCase().replace(/s$/, "")} website cost?`,
-        a: `Most agencies charge ${lower} $3,000-$8,000 upfront plus $500-$1,500/mo for SEO. We charge $0 upfront and $247/mo (12-month plan) bundled — hosting, SEO, call tracking, and monthly content all included. First payment only after the site is live and tracking is verified.`,
+        a: `Most agencies charge ${lower} $3,000-$8,000 upfront plus $500-$1,500/mo for SEO. We charge $0 upfront and $247/mo (12-month plan) bundled  - hosting, SEO, call tracking, and monthly content all included. First payment only after the site is live and tracking is verified.`,
       },
       {
         q: `Will my ${Name.toLowerCase().replace(/s$/, "")} website rank on Google?`,
-        a: `Most of our trade builds rank top 10 for the city + service keyword (e.g. <em>${opts.example}</em>) within 45-60 days of launch. The 90-day qualified-lead guarantee is in writing — first qualified lead in 90 days, or we work for free until you do.`,
+        a: `Most of our trade builds rank top 10 for the city + service keyword (e.g. <em>${opts.example}</em>) within 45-60 days of launch. The 90-day qualified-lead guarantee is in writing  - first qualified lead in 90 days, or we work for free until you do.`,
       },
       {
         q: `What pages do you build for ${lower}?`,
@@ -300,7 +309,7 @@ function makeTradeIndustry(opts: {
       },
       {
         q: `What's the difference between this and Angi?`,
-        a: `Angi takes a commission on every lead and forces you to compete with 4-5 other ${lower} on every job. Our build sends leads direct to your phone — no commission, no race-to-the-bottom on price. The math is dramatically better once you have direct organic leads.`,
+        a: `Angi takes a commission on every lead and forces you to compete with 4-5 other ${lower} on every job. Our build sends leads direct to your phone  - no commission, no race-to-the-bottom on price. The math is dramatically better once you have direct organic leads.`,
       },
       {
         q: `Can I cancel?`,
@@ -320,17 +329,7 @@ INDUSTRIES.push(
   ELECTRICIANS_INDUSTRY,
   CONTRACTORS_INDUSTRY,
   HVAC_INDUSTRY,
-  makeTradeIndustry({
-    slug: "roofers",
-    name: "Roofers",
-    pluralLower: "roofers",
-    primaryServices: "roof replacement, repair, leak detection, metal roofing, shingle, storm damage, inspections",
-    example: "roofer Houston",
-    bigPlayer: "Big-name roofing companies and storm-chaser franchises dominate generic searches",
-    yourEdge: "Storm damage, insurance claims, specific roof types (metal, shingle, tile) each rank separately. We build pages for each plus neighborhood coverage.",
-    sisterIndustries: ["contractors", "trades"],
-    topCities: ["houston", "dallas", "phoenix", "jacksonville", "charlotte"],
-  }),
+  ROOFERS_INDUSTRY,
   makeTradeIndustry({
     slug: "painters",
     name: "Painters",
@@ -342,17 +341,7 @@ INDUSTRIES.push(
     sisterIndustries: ["contractors", "trades"],
     topCities: ["phoenix", "los-angeles", "dallas", "houston", "san-diego"],
   }),
-  makeTradeIndustry({
-    slug: "landscapers",
-    name: "Landscapers",
-    pluralLower: "landscapers",
-    primaryServices: "design, installation, irrigation, hardscaping, sod, mulch, maintenance, tree service",
-    example: "landscaper Phoenix",
-    bigPlayer: "TruGreen and big franchise lawn services dominate generic searches",
-    yourEdge: "Design vs maintenance, hardscaping vs softscaping, and seasonal services each rank separately. We build pages for each.",
-    sisterIndustries: ["contractors", "trades"],
-    topCities: ["phoenix", "los-angeles", "houston", "dallas", "charlotte"],
-  }),
+  LANDSCAPERS_INDUSTRY,
   makeTradeIndustry({
     slug: "locksmiths",
     name: "Locksmiths",
@@ -472,7 +461,7 @@ function makeProfessionalIndustry(opts: {
       heading: `From referrals-only to a steady inbound pipeline.`,
       paragraphs: [
         `<strong>Week 1:</strong> Site live with full service-page coverage. Tracking installed.`,
-        `<strong>Month 1:</strong> First Google inquiry. Often a higher-quality lead than you'd expect — they've read your content and pre-qualified themselves.`,
+        `<strong>Month 1:</strong> First Google inquiry. Often a higher-quality lead than you'd expect  - they've read your content and pre-qualified themselves.`,
         `<strong>Month 2:</strong> Multiple weekly inquiries. The site does what referrals can't: bring in new clients you don't know yet.`,
         `<strong>Month 3:</strong> Guarantee honored. Pipeline is no longer dependent on the size of your network.`,
       ],
@@ -481,7 +470,7 @@ function makeProfessionalIndustry(opts: {
     faq: [
       {
         q: `How much does a ${opts.name.toLowerCase().replace(/s$/, "")} website cost?`,
-        a: `Most agencies charge ${opts.pluralLower} $5,000-$15,000 upfront for a website plus $1,000-$2,500/mo for SEO. We charge $0 upfront and $247/mo (12-month plan) bundled — hosting, SEO, content, all included.`,
+        a: `Most agencies charge ${opts.pluralLower} $5,000-$15,000 upfront for a website plus $1,000-$2,500/mo for SEO. We charge $0 upfront and $247/mo (12-month plan) bundled  - hosting, SEO, content, all included.`,
       },
       {
         q: `Will my ${opts.name.toLowerCase().replace(/s$/, "")} website rank on Google?`,
@@ -493,7 +482,7 @@ function makeProfessionalIndustry(opts: {
       },
       {
         q: `Will the copy match our professional tone?`,
-        a: `Yes. We write the first draft based on your brief, you give feedback in writing or via Loom video, we revise. Two written feedback rounds. The final tone is yours — we just give you a ranking-ready structure for it.`,
+        a: `Yes. We write the first draft based on your brief, you give feedback in writing or via Loom video, we revise. Two written feedback rounds. The final tone is yours  - we just give you a ranking-ready structure for it.`,
       },
       {
         q: `Can I cancel?`,
@@ -510,58 +499,10 @@ function makeProfessionalIndustry(opts: {
 }
 
 INDUSTRIES.push(
-  makeProfessionalIndustry({
-    slug: "lawyers",
-    name: "Lawyers",
-    pluralLower: "lawyers",
-    primaryServices: "business law, contracts, employment, real estate, estate planning, dispute resolution",
-    example: "business lawyer Chicago",
-    externalProblem: "The big-name firms own page 1 for generic searches. You can't outspend them, and Google AdWords for lawyers costs $50+ per click in major US metros.",
-    internalProblem: "You're winning work through referrals and reputation, but referrals plateau. New clients via Google could double your pipeline — but the firm's website was built years ago and hasn't ranked since.",
-    yourEdge: "We position you as a small firm with a clear specialty. Most legal SEO is generic; we go specific.",
-    complianceNote: {
-      eyebrow: "Scope note",
-      heading: "Who this is built for.",
-      paragraphs: [
-        "We build for small firms with focused practice areas (business law, contracts, employment, real estate, estate planning, dispute resolution). We do NOT take on personal injury, mass tort, criminal defense, or class actions. Those have specific advertising regulations under state bar rules that go beyond standard marketing infrastructure.",
-        "Your firm owns all claims about specific case outcomes, fee arrangements, and legal services. We provide marketing infrastructure; you provide legal substance and ensure compliance with your state bar's advertising rules.",
-      ],
-    },
-    sisterIndustries: ["accountants"],
-    topCities: ["new-york", "chicago", "los-angeles", "houston", "dallas"],
-  }),
+  LAWYERS_INDUSTRY,
   ACCOUNTANTS_INDUSTRY,
-  makeProfessionalIndustry({
-    slug: "real-estate-agents",
-    name: "Real Estate Agents",
-    pluralLower: "real estate agents",
-    primaryServices: "residential sales, listings, buyer representation, first-time home buyers, investment, relocation",
-    example: "realtor Austin",
-    externalProblem: "The big franchise agencies (Coldwell Banker, RE/MAX, Keller Williams, Compass) dominate brand searches.",
-    internalProblem: "Sellers and buyers choose agents based on neighborhood expertise and recent sales. Without a website that ranks for <em>real estate agent [your neighborhood]</em>, you're invisible to clients who haven't heard of you.",
-    yourEdge: "Neighborhood-specific pages, recent sales pages, and buyer guides each rank separately. We build pages for each neighborhood you sell in.",
-    complianceNote: {
-      eyebrow: "Compliance note",
-      heading: "Real estate marketing compliance.",
-      paragraphs: [
-        "Real estate marketing is regulated by state real estate commissions and the National Association of REALTORS. We position your business as marketing infrastructure that you control. Specific claims about property values, market predictions, or sale outcomes are your responsibility to verify and approve. Disclosures (license number, brokerage affiliation) appear on every page per your state's requirements.",
-      ],
-    },
-    sisterIndustries: ["lawyers"],
-    topCities: ["austin", "dallas", "charlotte", "san-diego", "jacksonville"],
-  }),
-  makeProfessionalIndustry({
-    slug: "photographers",
-    name: "Photographers",
-    pluralLower: "photographers",
-    primaryServices: "wedding, family, newborn, real estate, commercial product, headshots",
-    example: "wedding photographer New York",
-    externalProblem: "Photographer SERPs are crowded. Instagram has eaten a lot of the discovery work, but the searches that remain are high-intent.",
-    internalProblem: "You've got a folder full of stunning work and a website that's a generic gallery. Couples planning weddings, parents booking newborn shoots, agents needing real estate work — they all search differently. Your one-size-fits-all site captures none of them.",
-    yourEdge: "Each photography niche (wedding, newborn, real estate, headshots, product) has its own search volume. We build dedicated pages for each, with the right portfolio examples and pricing transparency.",
-    sisterIndustries: [],
-    topCities: ["new-york", "los-angeles", "chicago", "austin", "dallas"],
-  })
+  REAL_ESTATE_AGENTS_INDUSTRY,
+  PHOTOGRAPHERS_INDUSTRY,
 );
 
 // ============================================================
@@ -606,7 +547,7 @@ function makeLifestyleIndustry(opts: {
       paragraphs: [
         `<strong>${opts.externalProblem}</strong>`,
         `<strong>${opts.internalProblem}</strong>`,
-        `<strong>You're paying for marketing channels that aren't yours.</strong> Instagram changes the algorithm and your reach drops. Facebook ads stop working. Walk-ins are slow. A website you own and rank — once it's built — keeps working.`,
+        `<strong>You're paying for marketing channels that aren't yours.</strong> Instagram changes the algorithm and your reach drops. Facebook ads stop working. Walk-ins are slow. A website you own and rank  - once it's built  - keeps working.`,
       ],
     },
     answerBox: {
@@ -660,7 +601,7 @@ function makeLifestyleIndustry(opts: {
       },
       {
         q: `What if Instagram is my main marketing channel?`,
-        a: `Most of our lifestyle clients keep their social presence. We build the website to complement it — when someone hears about you on Instagram and Googles your business name, they land on a site that converts.`,
+        a: `Most of our lifestyle clients keep their social presence. We build the website to complement it  - when someone hears about you on Instagram and Googles your business name, they land on a site that converts.`,
       },
       {
         q: `Can I cancel?`,
@@ -684,7 +625,7 @@ INDUSTRIES.push(
     primaryServices: "cuts, color, balayage, highlights, men's grooming, formal styling, treatments",
     example: "hair salon Los Angeles",
     externalProblem: "Big franchise salons (Great Clips, Supercuts, JCPenney Salon) own brand searches. Independent salons fight for visibility on neighborhood-specific terms.",
-    internalProblem: "Your chairs are full but your books only go 3-4 weeks out. New clients come from Instagram and word of mouth — both unpredictable. A steady search-driven pipeline could let you book 8 weeks out.",
+    internalProblem: "Your chairs are full but your books only go 3-4 weeks out. New clients come from Instagram and word of mouth  - both unpredictable. A steady search-driven pipeline could let you book 8 weeks out.",
     yourEdge: "Specific service searches (balayage, men's cut, formal styling) each rank separately. We build dedicated pages for each, with pricing transparency.",
     caseStudyVideoId: "C0lg6FVXc68",
     caseStudySlug: "mark-l-hair-melbourne",
@@ -698,21 +639,13 @@ INDUSTRIES.push(
     primaryServices: "1:1 PT, group fitness, online coaching, strength, weight loss, mobility",
     example: "personal trainer Los Angeles",
     externalProblem: "Big gym chains (24 Hour Fitness, LA Fitness, Equinox) dominate brand searches. Independent PTs compete on neighborhood and specialty.",
-    internalProblem: "Your clients love you but you're capped at 25-30 hours of contact time per week. Online coaching could break that cap — but only if your website ranks for the searches.",
+    internalProblem: "Your clients love you but you're capped at 25-30 hours of contact time per week. Online coaching could break that cap  - but only if your website ranks for the searches.",
     yourEdge: "1:1, group, online, and specialty searches (strength, weight loss, postnatal, prehab) each rank separately. We build pages for each.",
     sisterIndustries: ["hair-salons"],
     topCities: ["los-angeles", "new-york", "austin", "san-diego", "chicago"],
   }),
-  makeLifestyleIndustry({
-    slug: "restaurants",
-    name: "Restaurants",
-    pluralLower: "restaurants",
-    primaryServices: "dine-in, takeout, delivery, catering, private events, gift cards",
-    example: "best Italian Brooklyn",
-    externalProblem: "Big chains and aggregators (OpenTable, Yelp, Resy) dominate generic 'restaurant [city]' searches.",
-    internalProblem: "Walk-ins are slowing. The neighborhood foot traffic isn't what it was. New customers increasingly find restaurants via search. If you're not in the top 3 for your cuisine in your neighborhood, you don't exist.",
-    yourEdge: "Cuisine + neighborhood searches (best Italian Brooklyn, Thai Austin) each rank separately. We build pages for menus, private events, catering, and gift cards.",
-    sisterIndustries: [],
-    topCities: ["new-york", "los-angeles", "chicago", "austin", "san-diego"],
-  })
+  RESTAURANTS_INDUSTRY,
+  CAFES_INDUSTRY,
+  CLEANERS_INDUSTRY,
+  POOL_BUILDERS_INDUSTRY,
 );

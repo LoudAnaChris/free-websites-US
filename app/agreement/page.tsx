@@ -18,7 +18,7 @@ const SECTIONS = [
   {
     h: "1. The offer",
     body: [
-      "Free SEO Websites (operated by Loudachris Digital Marketing — 'we', 'us') will design, build, and launch a website ('Site') for the Client at no upfront charge. The Client pays a recurring monthly fee ('Care Fee') for hosting, security, ranking work, monthly content, monitoring, and minor edits.",
+      "Free SEO Websites (operated by Loudachris Digital Marketing  - 'we', 'us') will design, build, and launch a website ('Site') for the Client at no upfront charge. The Client pays a recurring monthly fee ('Care Fee') for hosting, security, ranking work, monthly content, monitoring, and minor edits.",
       "Three Care Fee plans:",
       "<ul><li><strong>$247/month</strong> USD, 12-month minimum term, price locked 24 months.</li><li><strong>$397/month</strong> USD, 6-month minimum term.</li><li><strong>$497/month</strong> USD, no minimum term, cancel any time with 30 days notice.</li></ul>",
       "All prices are in US dollars and exclusive of any applicable state or local sales taxes that may apply to the Client's jurisdiction.",
@@ -27,8 +27,8 @@ const SECTIONS = [
   {
     h: "2. The 5-day build SLA",
     body: [
-      "From the moment the Client submits the Intake Form, we deliver the Site live in 5 working days. If we miss this deadline through our fault, the Client's Care Fee is waived for life — the Client keeps the site, the domain, and the code, with no future Care Fee owed.",
-      "Working days exclude US federal public holidays and weekends. The Client's responsiveness affects this — we deliver our part in 5 days, but if the Client takes 3 days to respond to a feedback request, the timeline extends accordingly.",
+      "From the moment the Client submits the Intake Form, we deliver the Site live in 5 working days. If we miss this deadline through our fault, the Client's Care Fee is waived for life  - the Client keeps the site, the domain, and the code, with no future Care Fee owed.",
+      "Working days exclude US federal public holidays and weekends. The Client's responsiveness affects this  - we deliver our part in 5 days, but if the Client takes 3 days to respond to a feedback request, the timeline extends accordingly.",
     ],
   },
   {

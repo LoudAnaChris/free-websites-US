@@ -31,7 +31,7 @@ export const CASE_STUDIES: CaseStudy[] = [
       { label: "Plan", value: "$247/mo" },
     ],
     story: [
-      "Adelaide&apos;s Bathroom Network came to us positioned for the high end of the bathroom renovation market — &ldquo;quiet-luxury&rdquo; finishes that raise the market value of an Adelaide home, not the budget end.",
+      "Adelaide&apos;s Bathroom Network came to us positioned for the high end of the bathroom renovation market  - &ldquo;quiet-luxury&rdquo; finishes that raise the market value of an Adelaide home, not the budget end.",
       "We built bathroomrenovationsadelaide.com.au around that positioning. Editorial dark-green design language, a hero before/after slider showing a stripped-back bathroom turning into a finished one, service-tier pages (full renovations, ensuites, small bathrooms, accessibility), suburb coverage across Greater Adelaide, a Cost page that&apos;s honest about pricing tiers, and a clear three-quotes workflow.",
       "Ranking inside 8 weeks. The keyword-driven domain (bathroomrenovationsadelaide.com.au) does the SEO heavy lifting; the Adelaide&apos;s Bathroom Network brand earns the trust on click-through.",
     ],
@@ -39,7 +39,7 @@ export const CASE_STUDIES: CaseStudy[] = [
       title:
         "Adelaide's Bathroom Network | Free Website Case Study | Loudachris",
       description:
-        "Free SEO website for Adelaide's Bathroom Network — quiet-luxury bathroom renovations across Greater Adelaide. Ranking inside 8 weeks of launch.",
+        "Free SEO website for Adelaide's Bathroom Network  - quiet-luxury bathroom renovations across Greater Adelaide. Ranking inside 8 weeks of launch.",
     },
   },
   {
@@ -59,8 +59,8 @@ export const CASE_STUDIES: CaseStudy[] = [
     ],
     story: [
       "BlueRevive is Adelaide&apos;s only specialist pool resurfacing team, backed by Marty (30 years on the tools, 16 apprentices trained). The brief was simple: stop showing up only on word-of-mouth, start owning &ldquo;pool resurfacing Adelaide&rdquo; on Google.",
-      "We built poolresurfacingadelaide.com.au with a hero before/after slider that lets prospects drag between &ldquo;the broken pool I&apos;ve got&rdquo; and &ldquo;the pool I want&rdquo;. Service pages cover fibreglass, concrete, pebble, and the osmosis repair work most pool techs don&apos;t handle. Schema markup, suburb coverage across Greater Adelaide, and call tracking on every enquiry.",
-      "First qualified lead landed in the inbox 8 days after launch. A 9m × 5m fibreglass pool in Medindie Gardens with osmosis damage — the exact kind of work BlueRevive does best.",
+      "We built poolresurfacingadelaide.com.au with a hero before/after slider that lets prospects drag between &ldquo;the broken pool I&apos;ve got&rdquo; and &ldquo;the pool I want&rdquo;. Service pages cover fiberglass, concrete, pebble, and the osmosis repair work most pool techs don&apos;t handle. Schema markup, suburb coverage across Greater Adelaide, and call tracking on every inquiry.",
+      "First qualified lead landed in the inbox 8 days after launch. A 9m × 5m fiberglass pool in Medindie Gardens with osmosis damage  - the exact kind of work BlueRevive does best.",
     ],
     meta: {
       title:
@@ -85,7 +85,7 @@ export const CASE_STUDIES: CaseStudy[] = [
       { label: "Service area", value: "Greater Sydney" },
     ],
     story: [
-      "Underpinning is a specialist build niche — high-value jobs, structural relevance, but the SERP is dominated by either national builders or directories.",
+      "Underpinning is a specialist build niche  - high-value jobs, structural relevance, but the SERP is dominated by either national builders or directories.",
       "We built sydney-underpinning.com.au with hero photography that conveys what the work actually looks like (steel piers, sandstone footings, real Sydney sites), trust badges (&ldquo;Preservation Specialists across Sydney&rdquo;, &ldquo;Fast & Affordable&rdquo;), technical service pages (residential underpinning, commercial, screw piling, resin injection), and a clear quote workflow.",
       "Reached top 3 for &ldquo;underpinning Sydney&rdquo; with the page architecture and engineering-credible content.",
     ],
@@ -114,7 +114,7 @@ export const CASE_STUDIES: CaseStudy[] = [
     story: [
       "Adam Nettleton runs Adam Plumbing and Gas in Adelaide. Before working with Loudachris, he had spent 10 years on different SEO agencies that promised the world and produced nothing.",
       "Loudachris took over the SEO work. Within four months, Adam went from 13 jobs a month to 41. The lead pipeline grew faster than his ability to staff against it (a good problem).",
-      "Adam was on the Loudachris full-service plan ($1,500+/mo SEO management plus the original site build) — not the free-website subscription. The same SEO approach and team builds Free SEO Websites sites at the $247-$497/mo price point.",
+      "Adam was on the Loudachris full-service plan ($1,500+/mo SEO management plus the original site build)  - not the free-website subscription. The same SEO approach and team builds Free SEO Websites sites at the $247-$497/mo price point.",
     ],
     meta: {
       title:

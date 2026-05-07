@@ -14,7 +14,7 @@ const buildIncludes = [
 const careIncludes = [
   "US-based hosting with SSL, daily backups, security monitoring",
   "Phone call tracking on every call from your site",
-  "Form tracking on every enquiry",
+  "Form tracking on every inquiry",
   "Monthly ranking work and on-page improvements",
   "Monthly content piece (one new service area page or FAQ)",
   "Monthly written report on traffic, calls, leads, rankings",

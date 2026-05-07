@@ -239,7 +239,7 @@ export function Qualifier() {
           {step === 2 && (
             <TextStep
               question="What city or area do you serve?"
-              placeholder="Adelaide, Melbourne, Sydney, Brisbane, Perth, etc."
+              placeholder="New York, Los Angeles, Chicago, Houston, Phoenix, etc."
               value={form.city}
               onChange={(v) => update("city", v)}
             />

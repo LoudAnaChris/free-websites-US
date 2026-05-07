@@ -135,7 +135,7 @@ export default async function CaseStudyPage({
               : "Loudachris full-service plan"}
           </span>
           <h1>
-            {c.business} — {c.industry} in {c.city}
+            {c.business}  - {c.industry} in {c.city}
           </h1>
           <p
             className="mt-5 text-lg sm:text-xl"
@@ -307,7 +307,7 @@ export default async function CaseStudyPage({
         <LeadEmailProof
           eyebrow="The actual lead"
           heading="The first BlueRevive lead, 8 days after launch."
-          caption="The exact email Marty received. Personal contact details redacted. Real lead from a real Adelaide pool resurfacing enquiry."
+          caption="The exact email Marty received. Personal contact details redacted. Real lead from a real Adelaide pool resurfacing inquiry."
         />
       )}
 

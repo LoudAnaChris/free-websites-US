@@ -27,15 +27,15 @@ export const metadata: Metadata = {
 const FAQS = [
   {
     q: "How do I find a good website designer near me?",
-    a: "Most local web designers are template shops charging $1,500 to $5,000 upfront for a Wix or Squarespace site that won't rank. Some agencies charge $5,000 to $15,000 plus monthly retainers. We build your SEO website for $0 upfront and $247/mo bundled — hosting, SEO, monthly content. National coverage with city-specific builds, so you get the same level of local relevance as hiring a designer down the street.",
+    a: "Most local web designers are template shops charging $1,500 to $5,000 upfront for a Wix or Squarespace site that won't rank. Some agencies charge $5,000 to $15,000 plus monthly retainers. We build your SEO website for $0 upfront and $247/mo bundled  - hosting, SEO, monthly content. National coverage with city-specific builds, so you get the same level of local relevance as hiring a designer down the street.",
   },
   {
     q: "Why a national web designer instead of a local one?",
-    a: "Local web designers usually have one of two problems: (1) they're template shops that don't do SEO, so your site looks fine but doesn't rank; or (2) they're full agencies charging custom-build prices ($5,000+ upfront) that small businesses can't justify. We bundle the build into a monthly subscription, so you get agency-level SEO at a price local designers can't match — and your site is built for your city, not for ours.",
+    a: "Local web designers usually have one of two problems: (1) they're template shops that don't do SEO, so your site looks fine but doesn't rank; or (2) they're full agencies charging custom-build prices ($5,000+ upfront) that small businesses can't justify. We bundle the build into a monthly subscription, so you get agency-level SEO at a price local designers can't match  - and your site is built for your city, not for ours.",
   },
   {
     q: "Do you really build sites for any US city?",
-    a: "Yes. We've built sites that rank in Phoenix, Fort Worth, San Diego, Chicago, Charlotte, Jacksonville, Houston, LA, Dallas, NYC, and beyond. We do the city research, build city-specific copy and schema, and align your Google Business Profile with the site. The fact that we're not in your city is invisible to Google — what matters is whether the site is built for your city's customers.",
+    a: "Yes. We've built sites that rank in Phoenix, Fort Worth, San Diego, Chicago, Charlotte, Jacksonville, Houston, LA, Dallas, NYC, and beyond. We do the city research, build city-specific copy and schema, and align your Google Business Profile with the site. The fact that we're not in your city is invisible to Google  - what matters is whether the site is built for your city's customers.",
   },
   {
     q: "What's the catch with a free website?",
@@ -47,7 +47,7 @@ const FAQS = [
   },
   {
     q: "Do you do website redesigns or only new builds?",
-    a: "Both. About 60% of our clients are replacing an existing site that didn't rank — Wix, Squarespace, GoDaddy, an old WordPress, or a custom build that's gone stale. We migrate the content, build the new site, and handle the 301 redirects so you don't lose any existing rankings. The other 40% are starting fresh.",
+    a: "Both. About 60% of our clients are replacing an existing site that didn't rank  - Wix, Squarespace, GoDaddy, an old WordPress, or a custom build that's gone stale. We migrate the content, build the new site, and handle the 301 redirects so you don't lose any existing rankings. The other 40% are starting fresh.",
   },
   {
     q: "What about Shopify or WordPress designers near me?",
@@ -55,11 +55,11 @@ const FAQS = [
   },
   {
     q: "How fast can you have my site live?",
-    a: "5 working days from the moment you submit the intake form. The 5-day clock is in writing — if we don't deliver in 5 working days, your build is free for life. Most local web designers quote 6-12 weeks for an equivalent build.",
+    a: "5 working days from the moment you submit the intake form. The 5-day clock is in writing  - if we don't deliver in 5 working days, your build is free for life. Most local web designers quote 6-12 weeks for an equivalent build.",
   },
   {
     q: "Will I have a single point of contact?",
-    a: "Yes. Chris from Loudachris Digital Marketing builds and manages every site personally. No outsourcing, no offshoring, no junior agency staff. You get one named person who owns the result. Communication is async (email + Loom video), no calls — that's how we keep the build cost low enough to give it away.",
+    a: "Yes. Chris from Loudachris Digital Marketing builds and manages every site personally. No outsourcing, no offshoring, no junior agency staff. You get one named person who owns the result. Communication is async (email + Loom video), no calls  - that's how we keep the build cost low enough to give it away.",
   },
   {
     q: "What if I want to meet in person?",
@@ -71,11 +71,11 @@ const FAQS = [
 const FEATURED_CITIES = [
   { name: "Phoenix, AZ", slug: "phoenix", note: "KD 8 quick win", desc: "Fastest-growing US metro. Trades and HVAC are particularly active." },
   { name: "Fort Worth, TX", slug: "fort-worth", note: "KD 9 quick win", desc: "DFW metro with softer SERPs than Dallas. Real volume, fragmented competition." },
-  { name: "San Diego, CA", slug: "san-diego", note: "Tier 2", desc: "Neighborhood-driven search behaviour. La Jolla, Pacific Beach, North Park each rank separately." },
+  { name: "San Diego, CA", slug: "san-diego", note: "Tier 2", desc: "Neighborhood-driven search behavior. La Jolla, Pacific Beach, North Park each rank separately." },
   { name: "Chicago, IL", slug: "chicago", note: "Tier 2", desc: "Midwest's most winnable major-metro SEO market. KD 5-10 lower than coastal majors." },
   { name: "Charlotte, NC", slug: "charlotte", note: "Tier 2", desc: "Growth metro with soft SERPs in real estate and trades. New residents Google service providers." },
   { name: "Jacksonville, FL", slug: "jacksonville", note: "Tier 2", desc: "Strong roofing, HVAC, and contractor demand. Coastal small-business density." },
-  { name: "Houston, TX", slug: "houston", note: "Tier 2", desc: "Sprawling metro with zip-code search behaviour. Texas-friendly SEO compounds fast." },
+  { name: "Houston, TX", slug: "houston", note: "Tier 2", desc: "Sprawling metro with zip-code search behavior. Texas-friendly SEO compounds fast." },
   { name: "Los Angeles, CA", slug: "los-angeles", note: "Tier 2", desc: "Neighborhood + service is the only winning angle. Silver Lake ≠ Brentwood ≠ Long Beach." },
 ];
 
@@ -169,7 +169,7 @@ export default function WebDesignerNearMePage() {
             </p>
             <p className="mt-3">
               We do the local research (your competitors, your city's search
-              behaviour, your neighborhood structure) and build the site for
+              behavior, your neighborhood structure) and build the site for
               your customers, not ours. Our $247/mo bundles ongoing local SEO
               work so the rankings compound. Most local designers either
               don't do SEO or charge $1,000-$2,500/mo extra for it.
@@ -234,7 +234,7 @@ export default function WebDesignerNearMePage() {
                 [
                   "Local SEO included",
                   "Rarely (or $500-$2,000/mo extra)",
-                  "Always — bundled in monthly fee",
+                  "Always  - bundled in monthly fee",
                 ],
                 [
                   "Google Business Profile alignment",
@@ -303,7 +303,7 @@ export default function WebDesignerNearMePage() {
               className="mt-5 text-lg"
               style={{ color: "var(--color-ink-2)", lineHeight: 1.65 }}
             >
-              Each city has its own search behaviour, competitor density,
+              Each city has its own search behavior, competitor density,
               and SERP structure. We build accordingly. Phoenix and Fort
               Worth are the highest-leverage starting points right now.
             </p>

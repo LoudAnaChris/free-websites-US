@@ -43,7 +43,7 @@ function makeLocation(opts: {
     faq: [
       {
         q: `How much does a website for a ${opts.city} small business cost?`,
-        a: `$0 upfront. $247/mo (12-month plan), $397/mo (6-month), or $497/mo (no lock-in) bundled — hosting, SEO, content, all included. First payment only after the site is live and tracking is verified.`,
+        a: `$0 upfront. $247/mo (12-month plan), $397/mo (6-month), or $497/mo (no lock-in) bundled  - hosting, SEO, content, all included. First payment only after the site is live and tracking is verified.`,
       },
       {
         q: `Will my site rank for ${opts.city} searches?`,
@@ -51,7 +51,7 @@ function makeLocation(opts: {
       },
       {
         q: `Do you work with multi-neighborhood businesses?`,
-        a: `Yes. ${opts.city} is large — most of our clients service 5-15 neighborhoods or zip codes. We build dedicated location pages over the year as part of monthly content so coverage compounds.`,
+        a: `Yes. ${opts.city} is large  - most of our clients service 5-15 neighborhoods or zip codes. We build dedicated location pages over the year as part of monthly content so coverage compounds.`,
       },
       {
         q: `Can you handle Google Business Profile setup?`,
@@ -98,7 +98,7 @@ export const LOCATIONS: Location[] = [
     topIndustries: ["restaurants", "personal-trainers", "contractors", "hair-salons", "real-estate-agents"],
     example: "plumber Los Angeles",
     whyPick:
-      "LA small businesses thrive on neighborhood identity — Silver Lake is different from Brentwood is different from Long Beach. We build sites that lean into that, not against it.",
+      "LA small businesses thrive on neighborhood identity  - Silver Lake is different from Brentwood is different from Long Beach. We build sites that lean into that, not against it.",
   }),
   makeLocation({
     slug: "chicago",
@@ -107,7 +107,7 @@ export const LOCATIONS: Location[] = [
     cityCharacter:
       "Chicago is one of the deepest mid-American small-business markets. Trades, restaurants, professional services, and real estate are all dense and active across 77 community areas.",
     competitorNote:
-      "Chicago SERPs are competitive but not at NYC/LA levels. KD scores are 5-10 points lower for equivalent terms. Quick wins are real here — most of our Chicago-style builds rank inside 45-60 days.",
+      "Chicago SERPs are competitive but not at NYC/LA levels. KD scores are 5-10 points lower for equivalent terms. Quick wins are real here  - most of our Chicago-style builds rank inside 45-60 days.",
     topIndustries: ["plumbers", "contractors", "real-estate-agents", "lawyers", "restaurants"],
     example: "plumber Chicago",
     whyPick:
@@ -124,14 +124,14 @@ export const LOCATIONS: Location[] = [
     topIndustries: ["hvac", "plumbers", "contractors", "real-estate-agents", "lawyers"],
     example: "HVAC Houston",
     whyPick:
-      "Houston small businesses need to be findable across a sprawling metro. We build for zip-code + service search behaviour, which is how Houston customers actually search.",
+      "Houston small businesses need to be findable across a sprawling metro. We build for zip-code + service search behavior, which is how Houston customers actually search.",
   }),
   makeLocation({
     slug: "phoenix",
     city: "Phoenix",
     state: "AZ",
     cityCharacter:
-      "Phoenix is one of the fastest-growing US metros. Population growth means new homeowners, new businesses, and constantly changing search behaviour. Trades and HVAC are particularly active.",
+      "Phoenix is one of the fastest-growing US metros. Population growth means new homeowners, new businesses, and constantly changing search behavior. Trades and HVAC are particularly active.",
     competitorNote:
       "Phoenix SERPs are easier than coastal majors. Strong search volume, fragmented competition. Most of our Phoenix-equivalent builds rank inside 45 days.",
     topIndustries: ["hvac", "contractors", "plumbers", "landscapers", "real-estate-agents"],
@@ -176,7 +176,7 @@ export const LOCATIONS: Location[] = [
     topIndustries: ["contractors", "restaurants", "personal-trainers", "real-estate-agents", "hair-salons"],
     example: "contractor San Diego",
     whyPick:
-      "San Diego search behaviour is neighborhood-driven. Customers search for La Jolla plumber, not San Diego plumber. We build for the neighborhood granularity.",
+      "San Diego search behavior is neighborhood-driven. Customers search for La Jolla plumber, not San Diego plumber. We build for the neighborhood granularity.",
   }),
   makeLocation({
     slug: "fort-worth",
@@ -185,7 +185,7 @@ export const LOCATIONS: Location[] = [
     cityCharacter:
       "Fort Worth has the cultural distinctness from Dallas (it's a separate city, not just 'DFW') and a small-business economy that's deep across trades, professional services, and hospitality. Population growth from 750k to over 950k in a decade has driven steady demand for new local service providers.",
     competitorNote:
-      "Fort Worth SERPs are noticeably friendlier than Dallas — KD 9 on the headline 'web design fort worth' versus KD 60 for Dallas. Most Fort Worth SERPs are still occupied by template-only sites and a few local solo operators. Quick wins are real here.",
+      "Fort Worth SERPs are noticeably friendlier than Dallas  - KD 9 on the headline 'web design fort worth' versus KD 60 for Dallas. Most Fort Worth SERPs are still occupied by template-only sites and a few local solo operators. Quick wins are real here.",
     topIndustries: ["contractors", "hvac", "plumbers", "real-estate-agents", "accountants"],
     example: "web design Fort Worth",
     whyPick:
