@@ -20,9 +20,9 @@ import {
 import { SITE } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Free SEO Websites for US Small Businesses | $297/mo, No Upfront",
+  title: "Free SEO Websites for US Small Businesses | $247/mo, No Upfront",
   description:
-    "Small business web design + SEO bundled. Free 5-day build for US small businesses. $297/mo includes hosting, ranking work, and content. 90-day qualified-lead guarantee. Beats $2,999 upfront agency fees.",
+    "Small business web design + SEO bundled. Free 5-day build for US small businesses. $247/mo includes hosting, ranking work, and content. 90-day qualified-lead guarantee. Beats $2,999 upfront agency fees.",
   alternates: { canonical: SITE.url },
 };
 
@@ -36,7 +36,7 @@ export default function HomePage() {
             serviceSchema({
               name: "Free SEO Website Build",
               description:
-                "Free website build in 5 working days. Hosting plus SEO from $297/month. 90-day qualified-lead guarantee.",
+                "Free website build in 5 working days. Hosting plus SEO from $247/month. 90-day qualified-lead guarantee.",
               url: SITE.url,
               serviceType: "Website Design and SEO",
             })

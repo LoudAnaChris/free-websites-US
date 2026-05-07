@@ -266,7 +266,7 @@ export function Qualifier() {
               value={form.plan}
               onChange={(v) => update("plan", v)}
               options={[
-                "12-month best value · $297/mo",
+                "12-month best value · $247/mo",
                 "6-month flexible · $397/mo",
                 "No lock-in · $497/mo",
                 "Tell me which is best for me",

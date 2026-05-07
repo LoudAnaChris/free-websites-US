@@ -18,16 +18,16 @@ import { SITE, NAV_LOCATIONS, NAV_INDUSTRIES } from "@/lib/site";
 
 export const metadata: Metadata = {
   title:
-    "Website Designer Near Me | Free SEO Website + $297/mo, US Nationwide",
+    "Website Designer Near Me | Free SEO Website + $247/mo, US Nationwide",
   description:
-    "Looking for a website designer near you? We build free SEO websites for US small businesses in any city. 5-day build, $297/mo bundled (hosting + SEO + content). 90-day qualified-lead guarantee. Beats $2,999 upfront from local web design companies.",
+    "Looking for a website designer near you? We build free SEO websites for US small businesses in any city. 5-day build, $247/mo bundled (hosting + SEO + content). 90-day qualified-lead guarantee. Beats $2,999 upfront from local web design companies.",
   alternates: { canonical: `${SITE.url}/web-designer-near-me` },
 };
 
 const FAQS = [
   {
     q: "How do I find a good website designer near me?",
-    a: "Most local web designers are template shops charging $1,500 to $5,000 upfront for a Wix or Squarespace site that won't rank. Some agencies charge $5,000 to $15,000 plus monthly retainers. We build your SEO website for $0 upfront and $297/mo bundled — hosting, SEO, monthly content. National coverage with city-specific builds, so you get the same level of local relevance as hiring a designer down the street.",
+    a: "Most local web designers are template shops charging $1,500 to $5,000 upfront for a Wix or Squarespace site that won't rank. Some agencies charge $5,000 to $15,000 plus monthly retainers. We build your SEO website for $0 upfront and $247/mo bundled — hosting, SEO, monthly content. National coverage with city-specific builds, so you get the same level of local relevance as hiring a designer down the street.",
   },
   {
     q: "Why a national web designer instead of a local one?",
@@ -39,11 +39,11 @@ const FAQS = [
   },
   {
     q: "What's the catch with a free website?",
-    a: "No catch. The build is genuinely free. We make our money on the monthly $297-$497 care plan. Most clients stay 24-36 months because the site keeps producing leads. If you cancel after the minimum term, you keep the site, the domain, and the code. No held-hostage assets.",
+    a: "No catch. The build is genuinely free. We make our money on the monthly $247-$497 care plan. Most clients stay 24-36 months because the site keeps producing leads. If you cancel after the minimum term, you keep the site, the domain, and the code. No held-hostage assets.",
   },
   {
     q: "How is this different from theaffordablewebguy or other 'affordable' web designers?",
-    a: "theaffordablewebguy charges $2,999 upfront and serves Denver-metro only. We charge $0 upfront and serve any US city. The other 'affordable' web designers we've reviewed charge $1,000-$5,000 upfront for template-only sites that don't include ongoing SEO. Our $297/mo includes the build, hosting, monthly SEO work, monthly content, and call tracking.",
+    a: "theaffordablewebguy charges $2,999 upfront and serves Denver-metro only. We charge $0 upfront and serve any US city. The other 'affordable' web designers we've reviewed charge $1,000-$5,000 upfront for template-only sites that don't include ongoing SEO. Our $247/mo includes the build, hosting, monthly SEO work, monthly content, and call tracking.",
   },
   {
     q: "Do you do website redesigns or only new builds?",
@@ -122,7 +122,7 @@ export default function WebDesignerNearMePage() {
             serviceSchema({
               name: "Website Designer for US Small Businesses",
               description:
-                "Free SEO website build for US small businesses in any city. $297/mo bundled (hosting, SEO, content). 90-day qualified-lead guarantee.",
+                "Free SEO website build for US small businesses in any city. $247/mo bundled (hosting, SEO, content). 90-day qualified-lead guarantee.",
               url: `${SITE.url}/web-designer-near-me`,
               serviceType: "Website Design and SEO",
             })
@@ -151,7 +151,7 @@ export default function WebDesignerNearMePage() {
             from $0 upfront.
           </>
         }
-        subtitle="The only US web designer service that's genuinely national and genuinely local. Free 5-day build, $297/mo bundled, 90-day qualified-lead guarantee. Built for your city's customers, regardless of where you are."
+        subtitle="The only US web designer service that's genuinely national and genuinely local. Free 5-day build, $247/mo bundled, 90-day qualified-lead guarantee. Built for your city's customers, regardless of where you are."
         ctaLabel="See if I qualify"
         ctaHref="/#qualifier"
       />
@@ -170,7 +170,7 @@ export default function WebDesignerNearMePage() {
             <p className="mt-3">
               We do the local research (your competitors, your city's search
               behaviour, your neighborhood structure) and build the site for
-              your customers, not ours. Our $297/mo bundles ongoing local SEO
+              your customers, not ours. Our $247/mo bundles ongoing local SEO
               work so the rankings compound. Most local designers either
               don't do SEO or charge $1,000-$2,500/mo extra for it.
             </p>
@@ -259,7 +259,7 @@ export default function WebDesignerNearMePage() {
                 [
                   "Total Year 1 cost",
                   "$5,000 - $30,000",
-                  "$3,564 (12-month plan)",
+                  "$2,964 (12-month plan)",
                 ],
               ].map((row, ri) => (
                 <div key={ri} style={{ display: "contents" }}>

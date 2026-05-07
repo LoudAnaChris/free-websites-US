@@ -1057,7 +1057,7 @@ export function IntakeForm() {
                 value={form.plan}
                 onChange={(v) => update("plan", v)}
                 options={[
-                  { value: "297-12", label: "$297/month for 12 months — Best Value" },
+                  { value: "247-12", label: "$247/month for 12 months — Best Value" },
                   { value: "397-6", label: "$397/month for 6 months — Try Before You Commit" },
                   { value: "497-none", label: "$497/month, no minimum term — Maximum Flexibility" },
                 ]}

@@ -15,7 +15,7 @@ export const INDUSTRIES: Industry[] = [
       titleLead: "A free website that wins the jobs",
       titleAccent: "you should be getting.",
       subtitle:
-        "Cheaper trades are outranking you on Google. Angi and Thumbtack take a cut on every lead. Your old site looks fine but the phone barely rings. We fix that with a free 5-day SEO build, $297/mo, and a 90-day lead guarantee.",
+        "Cheaper trades are outranking you on Google. Angi and Thumbtack take a cut on every lead. Your old site looks fine but the phone barely rings. We fix that with a free 5-day SEO build, $247/mo, and a 90-day lead guarantee.",
       bullets: [
         "You stop competing on Angi and Thumbtack and start owning your city's searches",
         "You see exactly which keyword drove every phone call",
@@ -36,7 +36,7 @@ export const INDUSTRIES: Industry[] = [
     answerBox: {
       question: "How does a free trade website actually work?",
       paragraphs: [
-        "A free trade website built by Loudachris costs $0 upfront and $297/month (12-month plan) for hosting plus SEO bundled. We build the site in 5 working days. The 90-day lead guarantee means first qualified lead within 90 days, or we keep working at no cost. Most builds rank top 10 on Google for their primary trade + city keyword within 45 days.",
+        "A free trade website built by Loudachris costs $0 upfront and $247/month (12-month plan) for hosting plus SEO bundled. We build the site in 5 working days. The 90-day lead guarantee means first qualified lead within 90 days, or we keep working at no cost. Most builds rank top 10 on Google for their primary trade + city keyword within 45 days.",
         "Think <em>plumber Houston</em>, <em>electrician Phoenix</em>, <em>contractor Dallas</em> — these are the searches that turn into calls. We build for those, not for awards.",
       ],
     },
@@ -61,7 +61,7 @@ export const INDUSTRIES: Industry[] = [
     faq: [
       {
         q: "How much does a trade website cost in the US?",
-        a: "Most agencies charge trades $3,000-$10,000 upfront for a website plus $500-$1,500/mo for SEO. We charge $0 upfront and $297/mo bundled (12-month plan). Hosting, SEO, call tracking, and monthly content are all included. Your first invoice only triggers after the site is live and tracking is verified.",
+        a: "Most agencies charge trades $3,000-$10,000 upfront for a website plus $500-$1,500/mo for SEO. We charge $0 upfront and $247/mo bundled (12-month plan). Hosting, SEO, call tracking, and monthly content are all included. Your first invoice only triggers after the site is live and tracking is verified.",
       },
       {
         q: "Why do most trade websites fail to rank on Google?",
@@ -77,7 +77,7 @@ export const INDUSTRIES: Industry[] = [
       },
       {
         q: "Do you work with plumbers, electricians, contractors, AND HVAC?",
-        a: "Yes. Trade-specific pages live at /industries/plumbers, /industries/electricians, /industries/contractors, /industries/hvac. Same offer, same 5-day build, same $297/mo. Each industry page covers trade-specific copy, keyword research, and case study fit.",
+        a: "Yes. Trade-specific pages live at /industries/plumbers, /industries/electricians, /industries/contractors, /industries/hvac. Same offer, same 5-day build, same $247/mo. Each industry page covers trade-specific copy, keyword research, and case study fit.",
       },
     ],
     success: {
@@ -87,15 +87,15 @@ export const INDUSTRIES: Industry[] = [
         "<strong>Day 1:</strong> Site live. Tracking installed. You can see which page got loaded, which keyword drove it, which call was answered.",
         "<strong>Day 30:</strong> First qualified lead from Google. Your name's in the inbox, not Angi's portal. You keep 100% of the job.",
         "<strong>Day 60:</strong> Multiple leads per week. The phone rings on a Tuesday morning and it's <em>emergency plumber Dallas</em> not <em>my mom's friend</em>.",
-        "<strong>Day 90:</strong> The guarantee's been honored. You're paying $297/mo and getting more leads than you got from $1,500/mo in ads. The math flips.",
+        "<strong>Day 90:</strong> The guarantee's been honored. You're paying $247/mo and getting more leads than you got from $1,500/mo in ads. The math flips.",
       ],
     },
     sisterIndustries: ["plumbers", "electricians", "contractors", "hvac", "landscapers"],
     topCities: ["new-york", "los-angeles", "houston", "phoenix", "dallas"],
     meta: {
-      title: "Free Trade Website + SEO | Plumbers, Electricians, Contractors | $297/mo",
+      title: "Free Trade Website + SEO | Plumbers, Electricians, Contractors | $247/mo",
       description:
-        "Free websites built for US trades in 5 working days. SEO and hosting bundled for $297/mo. 90-day qualified-lead guarantee. Plumbing, electrical, contractor case studies inside.",
+        "Free websites built for US trades in 5 working days. SEO and hosting bundled for $247/mo. 90-day qualified-lead guarantee. Plumbing, electrical, contractor case studies inside.",
     },
   },
   {
@@ -109,7 +109,7 @@ export const INDUSTRIES: Industry[] = [
       titleLead: "Water heaters, blocked drains, emergencies —",
       titleAccent: "the calls you should be getting.",
       subtitle:
-        "Right now those calls are going to a plumber whose website ranks higher than yours. We fix that with a free 5-day SEO build, $297/mo, and a 90-day lead guarantee. Built around the searches plumbers get hired from.",
+        "Right now those calls are going to a plumber whose website ranks higher than yours. We fix that with a free 5-day SEO build, $247/mo, and a 90-day lead guarantee. Built around the searches plumbers get hired from.",
       bullets: [
         "You rank for emergency plumber [your city] within 60 days",
         "Every water heater, drain, gas, and emergency service gets its own page",
@@ -130,7 +130,7 @@ export const INDUSTRIES: Industry[] = [
     answerBox: {
       question: "How does a free plumber website actually work?",
       paragraphs: [
-        "We build the site in 5 working days for $0 upfront. After launch, you pay $297/mo (12-month plan), $397/mo (6-month), or $497/mo (no lock-in) for hosting, SEO, call tracking, monthly ranking work, and one new content piece every month. The 90-day lead guarantee means first qualified plumbing lead within 90 days, or we keep working at no cost.",
+        "We build the site in 5 working days for $0 upfront. After launch, you pay $247/mo (12-month plan), $397/mo (6-month), or $497/mo (no lock-in) for hosting, SEO, call tracking, monthly ranking work, and one new content piece every month. The 90-day lead guarantee means first qualified plumbing lead within 90 days, or we keep working at no cost.",
         "The site is built around the searches plumbers get hired from — <em>emergency plumber [city]</em>, <em>water heater repair [neighborhood]</em>, <em>drain cleaning [zip]</em> — not generic templates that look nice but rank nowhere.",
       ],
     },
@@ -156,7 +156,7 @@ export const INDUSTRIES: Industry[] = [
     faq: [
       {
         q: "How much does a plumber website cost?",
-        a: "Most agencies charge plumbers $3,000-$8,000 upfront plus $500-$1,500/mo for SEO. Free Websites US by Loudachris charges $0 upfront and $297/mo (12-month plan) bundled — hosting, SEO, call tracking, monthly content. First payment only after the site is live and tracking confirmed.",
+        a: "Most agencies charge plumbers $3,000-$8,000 upfront plus $500-$1,500/mo for SEO. Free Websites US by Loudachris charges $0 upfront and $247/mo (12-month plan) bundled — hosting, SEO, call tracking, monthly content. First payment only after the site is live and tracking confirmed.",
       },
       {
         q: "Will my plumbing website rank on Google?",
@@ -188,7 +188,7 @@ export const INDUSTRIES: Industry[] = [
     sisterIndustries: ["electricians", "trades", "contractors"],
     topCities: ["new-york", "houston", "phoenix", "dallas", "chicago"],
     meta: {
-      title: "Free Plumber Website + SEO | Adam Plumbing Case Study | $297/mo",
+      title: "Free Plumber Website + SEO | Adam Plumbing Case Study | $247/mo",
       description:
         "Free SEO website for US plumbers. Built in 5 working days. See how Adam Plumbing grew from 13 to 41 jobs/month. 90-day guarantee.",
     },
@@ -227,7 +227,7 @@ function makeTradeIndustry(opts: {
       eyebrow: `For US ${lower}`,
       titleLead: `${services} —`,
       titleAccent: `the searches you should rank for.`,
-      subtitle: `Right now those searches are going to a ${Name.toLowerCase().replace(/s$/, "")} whose website ranks higher than yours. We fix that with a free 5-day SEO build, $297/mo, and a 90-day lead guarantee.`,
+      subtitle: `Right now those searches are going to a ${Name.toLowerCase().replace(/s$/, "")} whose website ranks higher than yours. We fix that with a free 5-day SEO build, $247/mo, and a 90-day lead guarantee.`,
       bullets: [
         `You rank for the ${Name.toLowerCase().replace(/s$/, "")} searches in your city within 60 days`,
         `Service pages for every job type you do (${services})`,
@@ -248,7 +248,7 @@ function makeTradeIndustry(opts: {
     answerBox: {
       question: `How does a free ${Name.toLowerCase().replace(/s$/, "")} website actually work?`,
       paragraphs: [
-        `We build the site in 5 working days for $0 upfront. After launch, $297/mo (12-month plan), $397/mo (6-month), or $497/mo (no lock-in). Hosting, SEO, call tracking, monthly ranking work, and one new content piece every month are bundled. The 90-day lead guarantee means first qualified ${Name.toLowerCase().replace(/s$/, "")} lead within 90 days, or we keep working at no cost.`,
+        `We build the site in 5 working days for $0 upfront. After launch, $247/mo (12-month plan), $397/mo (6-month), or $497/mo (no lock-in). Hosting, SEO, call tracking, monthly ranking work, and one new content piece every month are bundled. The 90-day lead guarantee means first qualified ${Name.toLowerCase().replace(/s$/, "")} lead within 90 days, or we keep working at no cost.`,
         `The site is built around the searches ${lower} get hired from — not generic templates. ${opts.yourEdge}`,
       ],
     },
@@ -284,7 +284,7 @@ function makeTradeIndustry(opts: {
     faq: [
       {
         q: `How much does a ${Name.toLowerCase().replace(/s$/, "")} website cost?`,
-        a: `Most agencies charge ${lower} $3,000-$8,000 upfront plus $500-$1,500/mo for SEO. We charge $0 upfront and $297/mo (12-month plan) bundled — hosting, SEO, call tracking, and monthly content all included. First payment only after the site is live and tracking is verified.`,
+        a: `Most agencies charge ${lower} $3,000-$8,000 upfront plus $500-$1,500/mo for SEO. We charge $0 upfront and $247/mo (12-month plan) bundled — hosting, SEO, call tracking, and monthly content all included. First payment only after the site is live and tracking is verified.`,
       },
       {
         q: `Will my ${Name.toLowerCase().replace(/s$/, "")} website rank on Google?`,
@@ -306,8 +306,8 @@ function makeTradeIndustry(opts: {
     sisterIndustries: opts.sisterIndustries || ["trades"],
     topCities: opts.topCities || ["new-york", "los-angeles", "chicago", "houston", "phoenix"],
     meta: {
-      title: `Free ${Name} Website + SEO | $297/mo, 5-Day Build | US`,
-      description: `Free SEO website for US ${lower}. ${services}. 5-day build. 90-day qualified-lead guarantee. $297/mo bundled.`,
+      title: `Free ${Name} Website + SEO | $247/mo, 5-Day Build | US`,
+      description: `Free SEO website for US ${lower}. ${services}. 5-day build. 90-day qualified-lead guarantee. $247/mo bundled.`,
     },
   };
 }
@@ -407,7 +407,7 @@ function makeProfessionalIndustry(opts: {
       eyebrow: `For US ${opts.pluralLower}`,
       titleLead: `A website that wins clients`,
       titleAccent: `before they call.`,
-      subtitle: `${opts.name} who rank on Google get chosen. Those who don't get the leftover inquiries. We build the SEO website that puts your firm on page 1 with a free 5-day build, $297/mo, and a 90-day lead guarantee.`,
+      subtitle: `${opts.name} who rank on Google get chosen. Those who don't get the leftover inquiries. We build the SEO website that puts your firm on page 1 with a free 5-day build, $247/mo, and a 90-day lead guarantee.`,
       bullets: [
         `You rank for ${opts.pluralLower} searches in your city within 60 days`,
         `Service pages for every offering (${opts.primaryServices})`,
@@ -428,7 +428,7 @@ function makeProfessionalIndustry(opts: {
     answerBox: {
       question: `How does a free ${opts.name.toLowerCase().replace(/s$/, "")} website actually work?`,
       paragraphs: [
-        `We build the site in 5 working days for $0 upfront. After launch, $297/mo (12-month plan), $397/mo (6-month), or $497/mo (no lock-in). Hosting, SEO, form analytics, monthly ranking work, and one new content piece every month are bundled. The 90-day lead guarantee means first qualified ${opts.name.toLowerCase().replace(/s$/, "")} inquiry within 90 days, or we keep working at no cost.`,
+        `We build the site in 5 working days for $0 upfront. After launch, $247/mo (12-month plan), $397/mo (6-month), or $497/mo (no lock-in). Hosting, SEO, form analytics, monthly ranking work, and one new content piece every month are bundled. The 90-day lead guarantee means first qualified ${opts.name.toLowerCase().replace(/s$/, "")} inquiry within 90 days, or we keep working at no cost.`,
         `${opts.yourEdge}`,
       ],
     },
@@ -463,7 +463,7 @@ function makeProfessionalIndustry(opts: {
     faq: [
       {
         q: `How much does a ${opts.name.toLowerCase().replace(/s$/, "")} website cost?`,
-        a: `Most agencies charge ${opts.pluralLower} $5,000-$15,000 upfront for a website plus $1,000-$2,500/mo for SEO. We charge $0 upfront and $297/mo (12-month plan) bundled — hosting, SEO, content, all included.`,
+        a: `Most agencies charge ${opts.pluralLower} $5,000-$15,000 upfront for a website plus $1,000-$2,500/mo for SEO. We charge $0 upfront and $247/mo (12-month plan) bundled — hosting, SEO, content, all included.`,
       },
       {
         q: `Will my ${opts.name.toLowerCase().replace(/s$/, "")} website rank on Google?`,
@@ -485,8 +485,8 @@ function makeProfessionalIndustry(opts: {
     sisterIndustries: opts.sisterIndustries || [],
     topCities: opts.topCities || ["new-york", "los-angeles", "chicago", "houston", "phoenix"],
     meta: {
-      title: `Free ${opts.name} Website + SEO | $297/mo, 5-Day Build | US`,
-      description: `Free SEO website for US ${opts.pluralLower}. ${opts.primaryServices}. 5-day build. 90-day qualified-lead guarantee. $297/mo bundled.`,
+      title: `Free ${opts.name} Website + SEO | $247/mo, 5-Day Build | US`,
+      description: `Free SEO website for US ${opts.pluralLower}. ${opts.primaryServices}. 5-day build. 90-day qualified-lead guarantee. $247/mo bundled.`,
     },
   };
 }
@@ -584,7 +584,7 @@ function makeLifestyleIndustry(opts: {
       eyebrow: `For US ${opts.pluralLower}`,
       titleLead: `Be the ${opts.name.toLowerCase().replace(/s$/, "")}`,
       titleAccent: `your neighborhood actually finds.`,
-      subtitle: `${opts.name} who rank locally book out. Those who don't depend on Instagram and walk-ins. We build the SEO website that gets you found with a free 5-day build, $297/mo, and a 90-day lead guarantee.`,
+      subtitle: `${opts.name} who rank locally book out. Those who don't depend on Instagram and walk-ins. We build the SEO website that gets you found with a free 5-day build, $247/mo, and a 90-day lead guarantee.`,
       bullets: [
         `You rank for ${opts.pluralLower} searches in your neighborhood within 60 days`,
         `Service pages for every offering (${opts.primaryServices})`,
@@ -605,7 +605,7 @@ function makeLifestyleIndustry(opts: {
     answerBox: {
       question: `How does a free ${opts.name.toLowerCase().replace(/s$/, "")} website actually work?`,
       paragraphs: [
-        `$0 upfront. Site live in 5 working days. After launch, $297/mo (12-month plan), $397/mo (6-month), or $497/mo (no lock-in) for hosting, SEO, tracking, monthly ranking work, and one new content piece every month. 90-day qualified-lead guarantee in writing.`,
+        `$0 upfront. Site live in 5 working days. After launch, $247/mo (12-month plan), $397/mo (6-month), or $497/mo (no lock-in) for hosting, SEO, tracking, monthly ranking work, and one new content piece every month. 90-day qualified-lead guarantee in writing.`,
         opts.yourEdge,
       ],
     },
@@ -641,7 +641,7 @@ function makeLifestyleIndustry(opts: {
     faq: [
       {
         q: `How much does a ${opts.name.toLowerCase().replace(/s$/, "")} website cost?`,
-        a: `Most agencies charge ${opts.pluralLower} $3,000-$8,000 upfront plus $500-$1,500/mo for SEO. We charge $0 upfront and $297/mo (12-month plan) bundled.`,
+        a: `Most agencies charge ${opts.pluralLower} $3,000-$8,000 upfront plus $500-$1,500/mo for SEO. We charge $0 upfront and $247/mo (12-month plan) bundled.`,
       },
       {
         q: `Will my ${opts.name.toLowerCase().replace(/s$/, "")} website rank?`,
@@ -663,8 +663,8 @@ function makeLifestyleIndustry(opts: {
     sisterIndustries: opts.sisterIndustries || [],
     topCities: opts.topCities || ["new-york", "los-angeles", "chicago", "houston", "phoenix"],
     meta: {
-      title: `Free ${opts.name} Website + SEO | $297/mo, 5-Day Build | US`,
-      description: `Free SEO website for US ${opts.pluralLower}. ${opts.primaryServices}. 5-day build. 90-day qualified-lead guarantee. $297/mo bundled.`,
+      title: `Free ${opts.name} Website + SEO | $247/mo, 5-Day Build | US`,
+      description: `Free SEO website for US ${opts.pluralLower}. ${opts.primaryServices}. 5-day build. 90-day qualified-lead guarantee. $247/mo bundled.`,
     },
   };
 }

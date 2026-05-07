@@ -39,11 +39,11 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
   title: {
-    default: "Free SEO Websites for US Small Businesses | $297/mo, No Upfront",
+    default: "Free SEO Websites for US Small Businesses | $247/mo, No Upfront",
     template: "%s | Free SEO Websites by Loudachris",
   },
   description:
-    "A free SEO website for your US small business in 5 working days. $297/mo includes hosting, SEO, and ongoing optimization. 90-day qualified-lead guarantee or your money back. Compare to $2,999 upfront fees elsewhere.",
+    "A free SEO website for your US small business in 5 working days. $247/mo includes hosting, SEO, and ongoing optimization. 90-day qualified-lead guarantee or your money back. Compare to $2,999 upfront fees elsewhere.",
   keywords: [
     "small business web design",
     "web design services for small business",
@@ -69,7 +69,7 @@ export const metadata: Metadata = {
     siteName: SITE.fullName,
     title: "Free SEO Websites for US Small Businesses",
     description:
-      "Free 5-day build. $297/mo for hosting + SEO. 90-day qualified-lead guarantee. Beats $2,999 upfront agency fees.",
+      "Free 5-day build. $247/mo for hosting + SEO. 90-day qualified-lead guarantee. Beats $2,999 upfront agency fees.",
     images: [
       {
         url: "/og-image.png",
@@ -82,7 +82,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Free SEO Websites for US Small Businesses",
-    description: "$297/mo. No upfront. 90-day qualified-lead guarantee.",
+    description: "$247/mo. No upfront. 90-day qualified-lead guarantee.",
   },
   robots: {
     index: true,

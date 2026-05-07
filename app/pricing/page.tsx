@@ -10,20 +10,20 @@ import { breadcrumbSchema, faqSchema, serviceSchema } from "@/lib/schema";
 import { SITE } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Affordable Monthly SEO Packages from $297/mo USA | No Upfront",
+  title: "Affordable Monthly SEO Packages from $247/mo USA | No Upfront",
   description:
-    "Compare US small business SEO packages: $297/mo (12-month), $397/mo (6-month), $497/mo (no minimum). Free website build included. Beats $2,999 upfront agencies and template-only competitors. Affordable seo packages for small business, monthly seo packages, website design and seo packages bundled.",
+    "Compare US small business SEO packages: $247/mo (12-month), $397/mo (6-month), $497/mo (no minimum). Free website build included. Beats $2,999 upfront agencies and template-only competitors. Affordable seo packages for small business, monthly seo packages, website design and seo packages bundled.",
   alternates: { canonical: `${SITE.url}/pricing` },
 };
 
 const FAQS = [
   {
     q: "How much does a small business website cost in the US?",
-    a: "Most US agencies charge $3,000-$10,000 upfront for a small business website, plus $500-$2,000/mo for hosting and SEO. We charge $0 upfront and $297-$497/mo for hosting plus SEO bundled. Same team that builds Loudachris's $3,000+ custom sites.",
+    a: "Most US agencies charge $3,000-$10,000 upfront for a small business website, plus $500-$2,000/mo for hosting and SEO. We charge $0 upfront and $247-$497/mo for hosting plus SEO bundled. Same team that builds Loudachris's $3,000+ custom sites.",
   },
   {
     q: "What's the cheapest plan?",
-    a: "$297/month with a 12-month minimum. Total over the minimum term: $3,564 across the year. That's it. No upfront. No setup fee. No surprise hikes (price locked 24 months).",
+    a: "$247/month with a 12-month minimum. Total over the minimum term: $2,964 across the year. That's it. No upfront. No setup fee. No surprise hikes (price locked 24 months).",
   },
   {
     q: "What if I need flexibility?",
@@ -82,7 +82,7 @@ export default function PricingPage() {
             serviceSchema({
               name: "Free Website Build with Monthly Care Plan",
               description:
-                "Free 5-day SEO website build for US small businesses. Hosting plus SEO from $297/month.",
+                "Free 5-day SEO website build for US small businesses. Hosting plus SEO from $247/month.",
               url: `${SITE.url}/pricing`,
               serviceType: "Website Design and SEO",
             })
@@ -130,7 +130,7 @@ export default function PricingPage() {
               We bundle everything (build + hosting + SEO + monitoring +
               monthly content) into one monthly fee, and we eat the upfront
               build cost so you don&apos;t pay until the site is live. That
-              changes the maths from &ldquo;$5,000 risk&rdquo; to &ldquo;$297
+              changes the maths from &ldquo;$5,000 risk&rdquo; to &ldquo;$247
               when it&apos;s working.&rdquo;
             </p>
           </Reveal>
@@ -196,7 +196,7 @@ export default function PricingPage() {
                 [
                   "Total Year 1 cost",
                   "$10,000 - $30,000",
-                  "$3,564 (12-mo plan)",
+                  "$2,964 (12-mo plan)",
                 ],
               ].map((row, ri) => (
                 <div key={ri} style={{ display: "contents" }}>

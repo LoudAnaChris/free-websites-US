@@ -100,7 +100,7 @@ export type IntakeFormState = {
   formFields: string[]; // multi-select
 
   // Section 11 - Plan
-  plan: "297-12" | "397-6" | "497-none" | "";
+  plan: "247-12" | "397-6" | "497-none" | "";
   billing: "direct-debit" | "credit-card" | "";
 
   // Section 12 - Anything else

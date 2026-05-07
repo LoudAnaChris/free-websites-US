@@ -135,7 +135,7 @@ export function IndustryPageTemplate({ industry }: { industry: Industry }) {
           __html: JSON.stringify(
             serviceSchema({
               name: `Free SEO Website for US ${industry.pluralLowercase}`,
-              description: `5-day build, $297/month bundled. 90-day qualified-lead guarantee.`,
+              description: `5-day build, $247/month bundled. 90-day qualified-lead guarantee.`,
               url: `${SITE.url}/industries/${industry.slug}`,
               serviceType: `${industry.name} Website Design and SEO`,
             })

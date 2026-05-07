@@ -109,7 +109,7 @@ export default function IndustriesHubPage() {
             <span className="rose-underline">{INDUSTRIES.length}+ Australian industries.</span>
           </>
         }
-        subtitle={`Trades, NDIS, professional services, hospitality, lifestyle. Each industry page covers trade-specific copy, keyword research, and case-study fit. Same offer, same 5-day build, same $297/mo.`}
+        subtitle={`Trades, NDIS, professional services, hospitality, lifestyle. Each industry page covers trade-specific copy, keyword research, and case-study fit. Same offer, same 5-day build, same $247/mo.`}
         ctaLabel="See if I qualify"
         ctaHref="/#qualifier"
       />

@@ -64,7 +64,7 @@ export function LocationPageTemplate({ location }: { location: Location }) {
           __html: JSON.stringify(
             serviceSchema({
               name: `Free SEO Website for ${location.city} Small Businesses`,
-              description: `5-day build, $297/month bundled. 90-day qualified-lead guarantee. Built for ${location.city} customers.`,
+              description: `5-day build, $247/month bundled. 90-day qualified-lead guarantee. Built for ${location.city} customers.`,
               url: `${SITE.url}/locations/${location.slug}`,
               serviceType: `${location.city} Website Design and SEO`,
             })

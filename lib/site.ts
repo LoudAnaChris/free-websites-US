@@ -30,7 +30,7 @@ export const SITE = {
   ga4: "G-7RDS5NRRMW",
   pricing: {
     sixMonth: 397,
-    twelveMonth: 297,
+    twelveMonth: 247,
     noLockIn: 497,
     statedValue: 2700,
   },

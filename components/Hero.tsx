@@ -38,7 +38,7 @@ export function Hero() {
             Free SEO Websites for{" "}
             <span className="rose-underline">US small businesses.</span>
             <br />
-            $297/mo. Leads in 90, guaranteed.
+            $247/mo. Leads in 90, guaranteed.
           </h1>
           <p
             className="mt-7 text-lg sm:text-xl max-w-2xl mx-auto"

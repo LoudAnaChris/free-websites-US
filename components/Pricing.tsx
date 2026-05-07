@@ -20,9 +20,9 @@ const plans = [
   {
     name: "Best Value",
     term: "12 months · minimum",
-    monthly: 297,
-    total: "$3,564",
-    savings: "Save $1,200 vs 6-month plan",
+    monthly: 247,
+    total: "$2,964",
+    savings: "Save $1,800 vs 6-month plan",
     why: null,
     featured: true,
     features: [

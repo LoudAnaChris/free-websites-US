@@ -12,9 +12,9 @@ import { breadcrumbSchema, howToSchema, faqSchema, serviceSchema } from "@/lib/s
 import { SITE } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "How Local SEO for Small Business Works | Free Website + $297/mo",
+  title: "How Local SEO for Small Business Works | Free Website + $247/mo",
   description:
-    "Local SEO services for small business: 5-day async build, 90-day qualified-lead guarantee, monthly SEO bundled. Affordable SEO packages from $297/mo. Here's exactly how Loudachris delivers your free US small business website.",
+    "Local SEO services for small business: 5-day async build, 90-day qualified-lead guarantee, monthly SEO bundled. Affordable SEO packages from $247/mo. Here's exactly how Loudachris delivers your free US small business website.",
   alternates: { canonical: `${SITE.url}/how-it-works` },
 };
 
@@ -30,7 +30,7 @@ const STEPS = [
     n: 2,
     Icon: Mail,
     title: "Agreement",
-    body: "Written agreement in your inbox within 24 hours. One e-sign. No call. The agreement specifies the 90-day guarantee, 5-day build SLA, your chosen plan ($297, $397, or $497/mo), and the cancellation terms.",
+    body: "Written agreement in your inbox within 24 hours. One e-sign. No call. The agreement specifies the 90-day guarantee, 5-day build SLA, your chosen plan ($247, $397, or $497/mo), and the cancellation terms.",
     note: "Read it. Sign it. Or push back on a clause and we'll discuss in writing.",
   },
   {
@@ -119,7 +119,7 @@ export default function HowItWorksPage() {
           __html: JSON.stringify(
             serviceSchema({
               name: "5-Day SEO Website Build",
-              description: "Free build in 5 working days. Hosting plus SEO from $297/month.",
+              description: "Free build in 5 working days. Hosting plus SEO from $247/month.",
               url: `${SITE.url}/how-it-works`,
               serviceType: "Website Design and SEO",
             })
@@ -142,7 +142,7 @@ export default function HowItWorksPage() {
             <span className="rose-underline">Loudachris</span> works.
           </>
         }
-        subtitle="A 5-day async build, $297-$497/month for hosting and SEO, and a 90-day qualified-lead guarantee. Five steps. No calls in any of them."
+        subtitle="A 5-day async build, $247-$497/month for hosting and SEO, and a 90-day qualified-lead guarantee. Five steps. No calls in any of them."
         ctaLabel="See if I qualify"
         ctaHref="/#qualifier"
       />

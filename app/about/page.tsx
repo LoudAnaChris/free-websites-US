@@ -267,7 +267,7 @@ export default function AboutPage() {
                 Loudachris.com.au is our full-service agency: SEO from
                 $1,500/mo, Google Ads from $500/mo, websites from $3,000.
                 Free Websites US is our entry-tier small-business arm:
-                free build, $297-$497/mo subscription, no upfront. Same team,
+                free build, $247-$497/mo subscription, no upfront. Same team,
                 same standards, different price point.
               </p>
               <p

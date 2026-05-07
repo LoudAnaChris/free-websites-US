@@ -18,7 +18,7 @@ function makeLocation(opts: {
       eyebrow: `For ${opts.city} small businesses`,
       titleLead: `Free websites for`,
       titleAccent: `${opts.city} small businesses.`,
-      subtitle: `Whatever you do (trades, professional services, hospitality, real estate) we build the SEO website that gets ${opts.city} customers calling. Free 5-day build, $297/mo, 90-day lead guarantee.`,
+      subtitle: `Whatever you do (trades, professional services, hospitality, real estate) we build the SEO website that gets ${opts.city} customers calling. Free 5-day build, $247/mo, 90-day lead guarantee.`,
       bullets: [
         `Built specifically for ${opts.city} search results`,
         `Neighborhood-level coverage across Greater ${opts.city}`,
@@ -30,7 +30,7 @@ function makeLocation(opts: {
     answerBox: {
       question: `How does a free ${opts.city} small-business website work?`,
       paragraphs: [
-        `$0 upfront. Site live in 5 working days. After launch, $297/mo (12-month plan), $397/mo (6-month), or $497/mo (no lock-in). Hosting, SEO, call tracking, monthly ranking work, and one new content piece every month bundled. 90-day qualified-lead guarantee in writing.`,
+        `$0 upfront. Site live in 5 working days. After launch, $247/mo (12-month plan), $397/mo (6-month), or $497/mo (no lock-in). Hosting, SEO, call tracking, monthly ranking work, and one new content piece every month bundled. 90-day qualified-lead guarantee in writing.`,
         `${opts.cityCharacter} The site is built around the searches ${opts.city} customers actually do, not generic templates that could be in any city.`,
       ],
     },
@@ -43,7 +43,7 @@ function makeLocation(opts: {
     faq: [
       {
         q: `How much does a website for a ${opts.city} small business cost?`,
-        a: `$0 upfront. $297/mo (12-month plan), $397/mo (6-month), or $497/mo (no lock-in) bundled — hosting, SEO, content, all included. First payment only after the site is live and tracking is verified.`,
+        a: `$0 upfront. $247/mo (12-month plan), $397/mo (6-month), or $497/mo (no lock-in) bundled — hosting, SEO, content, all included. First payment only after the site is live and tracking is verified.`,
       },
       {
         q: `Will my site rank for ${opts.city} searches?`,
@@ -67,8 +67,8 @@ function makeLocation(opts: {
       },
     ],
     meta: {
-      title: `Web Design ${opts.city} | Free SEO Website + $297/mo`,
-      description: `Web design ${opts.city}: free 5-day build, $297/mo bundled (hosting, local SEO, content). Built specifically for ${opts.city} small businesses. 90-day qualified-lead guarantee.`,
+      title: `Web Design ${opts.city} | Free SEO Website + $247/mo`,
+      description: `Web design ${opts.city}: free 5-day build, $247/mo bundled (hosting, local SEO, content). Built specifically for ${opts.city} small businesses. 90-day qualified-lead guarantee.`,
     },
   };
 }

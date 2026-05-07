@@ -45,7 +45,7 @@ export function localBusinessSchema() {
     url: SITE.url,
     image: `${SITE.url}/og-image.png`,
     email: SITE.email,
-    priceRange: "$297-$497/month",
+    priceRange: "$247-$497/month",
     address: {
       "@type": "PostalAddress",
       streetAddress: SITE.address.street,
@@ -163,11 +163,11 @@ export function serviceSchema(opts: {
       {
         "@type": "Offer",
         name: "12-month plan",
-        price: "297",
+        price: "247",
         priceCurrency: "USD",
         priceSpecification: {
           "@type": "UnitPriceSpecification",
-          price: "297",
+          price: "247",
           priceCurrency: "USD",
           unitCode: "MON",
           referenceQuantity: { "@type": "QuantitativeValue", value: 1, unitCode: "MON" },

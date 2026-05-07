@@ -20,7 +20,7 @@ const SECTIONS = [
     body: [
       "Free Websites US (operated by Loudachris Digital Marketing — 'we', 'us') will design, build, and launch a website ('Site') for the Client at no upfront charge. The Client pays a recurring monthly fee ('Care Fee') for hosting, security, ranking work, monthly content, monitoring, and minor edits.",
       "Three Care Fee plans:",
-      "<ul><li><strong>$297/month</strong> USD, 12-month minimum term, price locked 24 months.</li><li><strong>$397/month</strong> USD, 6-month minimum term.</li><li><strong>$497/month</strong> USD, no minimum term, cancel any time with 30 days notice.</li></ul>",
+      "<ul><li><strong>$247/month</strong> USD, 12-month minimum term, price locked 24 months.</li><li><strong>$397/month</strong> USD, 6-month minimum term.</li><li><strong>$497/month</strong> USD, no minimum term, cancel any time with 30 days notice.</li></ul>",
       "All prices are in US dollars and exclusive of any applicable state or local sales taxes that may apply to the Client's jurisdiction.",
     ],
   },
@@ -67,7 +67,7 @@ const SECTIONS = [
   {
     h: "7. Cancellation",
     body: [
-      "On the $297/mo plan: 12-month minimum, then 30 days written notice to cancel.",
+      "On the $247/mo plan: 12-month minimum, then 30 days written notice to cancel.",
       "On the $397/mo plan: 6-month minimum, then 30 days written notice.",
       "On the $497/mo plan: no minimum, 30 days written notice.",
       "No exit fees. No retention of assets. Final Care Fee invoiced on the cancellation date covers the 30-day notice period.",
@@ -76,7 +76,7 @@ const SECTIONS = [
   {
     h: "8. Price lock",
     body: [
-      "The Care Fee is locked for 24 months from the launch date on the $297/mo and $397/mo plans. After 24 months, any Care Fee adjustment is communicated 60 days in advance. The Client may cancel within that 60-day period without penalty.",
+      "The Care Fee is locked for 24 months from the launch date on the $247/mo and $397/mo plans. After 24 months, any Care Fee adjustment is communicated 60 days in advance. The Client may cancel within that 60-day period without penalty.",
     ],
   },
   {

@@ -131,7 +131,7 @@ export default async function CaseStudyPage({
             }}
           >
             {c.buildType === "free-subscription"
-              ? "Free build · $297/mo subscription"
+              ? "Free build · $247/mo subscription"
               : "Loudachris full-service plan"}
           </span>
           <h1>
