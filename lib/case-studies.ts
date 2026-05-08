@@ -38,8 +38,7 @@ export const CASE_STUDIES: CaseStudy[] = [
       "Rowan is on the 12-month plan with monthly performance review and ongoing SEO work as more case-study photos come through. Note: this is an Australian client of the Loudachris parent brand and the AU sibling site (free-websites.com.au). The same free-build + monthly-subscription offer is what we deliver to US small businesses through Free SEO Websites by Loudachris. The 28-minute timing is a one-off; the build-time SEO and the 90-day qualified-lead guarantee are what made the timing possible at all.",
     ],
     meta: {
-      title:
-        "Lucky Duck Mowing Caloundra | First Lead 28 Min After Launch | Free SEO Websites by Loudachris",
+      title: "Lucky Duck Mowing Caloundra | First Lead 28 Min After Launch",
       description:
         "Lucky Duck Mowing went live at 2:47pm and got its first inbound quote at 3:15pm same day. Real proof of the free-build + monthly-subscription offer Loudachris delivers to US small businesses.",
     },
