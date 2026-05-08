@@ -311,6 +311,16 @@ export default async function CaseStudyPage({
         />
       )}
 
+      {c.slug === "lucky-duck-mowing-caloundra" && (
+        <LeadEmailProof
+          eyebrow="The actual lead"
+          heading="The first Lucky Duck lead, 28 minutes after launch."
+          caption="The exact email Rowan received at 3:15pm, 28 minutes after the site went live at 2:47pm. Tony from Dicky Beach asking for rear duplex lawn mowing on a sub-100sqm yard. Personal contact details redacted. Same lead-delivery format on every Free SEO Websites build for US clients."
+          imageSrc="/lead-email-lucky-duck-mowing.png"
+          imageAlt="Real lead email from a Lucky Duck Mowing customer: name, email, phone (redacted), Dicky Beach suburb, rear duplex lawn mowing on sub-100sqm yard, full message in their own words."
+        />
+      )}
+
       <FinalCTA
         heading={`Want a free website like ${c.business}?`}
         body="Apply in 60 seconds. We email back in 24 hours with a written agreement or a polite decline. No call needed."

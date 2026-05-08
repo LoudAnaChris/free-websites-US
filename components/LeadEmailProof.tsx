@@ -5,10 +5,14 @@ export function LeadEmailProof({
   eyebrow = "What you actually receive",
   heading = "When a lead comes in, this is what hits your inbox.",
   caption = "Real qualified lead from a Loudachris build (BlueRevive Pool Restoration, Adelaide AU - the parent brand's flagship). Personal contact details redacted. Lead landed 8 days after the site went live. Same lead-delivery format on every Free SEO Websites build for US clients.",
+  imageSrc = "/lead-email-example.png",
+  imageAlt = "Real lead email from a BlueRevive Pool Restoration inquiry: name, email, phone (redacted), Medindie Gardens suburb, fiberglass pool, pool resurfacing service, message about a 9m by 5m pool with osmosis.",
 }: {
   eyebrow?: string;
   heading?: string;
   caption?: string;
+  imageSrc?: string;
+  imageAlt?: string;
 }) {
   return (
     <section
@@ -83,8 +87,8 @@ export function LeadEmailProof({
               }}
             >
               <Image
-                src="/lead-email-example.png"
-                alt="Real lead email from a BlueRevive Pool Restoration inquiry: name, email, phone (redacted), Medindie Gardens suburb, fiberglass pool, pool resurfacing service, message about a 9m by 5m pool with osmosis."
+                src={imageSrc}
+                alt={imageAlt}
                 width={1200}
                 height={1080}
                 className="w-full h-auto block"

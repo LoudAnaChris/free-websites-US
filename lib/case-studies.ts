@@ -16,6 +16,35 @@ export type CaseStudy = {
 
 export const CASE_STUDIES: CaseStudy[] = [
   {
+    slug: "lucky-duck-mowing-caloundra",
+    business: "Lucky Duck Mowing",
+    city: "Caloundra (Sunshine Coast, AU)",
+    industry: "Lawn Care &amp; Gardening",
+    industryHref: "/industries/landscapers",
+    liveSite: "https://luckyduckmowing.com.au",
+    buildType: "free-subscription",
+    screenshot: "/case-study-lucky-duck-mowing.png",
+    outcome: "First lead 28 minutes after launch",
+    metrics: [
+      { label: "Time to first lead", value: "28 minutes" },
+      { label: "Build time", value: "5 working days" },
+      { label: "Plan", value: "12-month best value" },
+    ],
+    story: [
+      "Rowan Barber runs Lucky Duck Mowing solo across Caloundra and a 10km radius on Australia&apos;s Sunshine Coast: lawn mowing, hedging, edging, yard cleanups, green waste removal. The existing VentraIP-hosted site wasn&apos;t generating any inbound work and Rowan had no time for SEO theory or interest in being upsold a $5,000-$15,000 agency build.",
+      "We migrated the brand and content onto the Free SEO Websites platform and rebuilt every page from scratch with proper LocalBusiness, Service, and FAQPage schema in the HTML. Service pages for each offering, a 10km suburb section anchored on Caloundra and surrounds, a &ldquo;three Caloundra jobs in one weekend&rdquo; before-and-after gallery, a clean FAQ, and contact form submissions routed straight to Rowan&apos;s phone via email.",
+      "Build ran fully async. 60-second application form on day one, written proposal back in Rowan&apos;s inbox same day, agreement signed via Gmail reply, intake form for the discovery, 5 working days from intake to draft, one round of revisions, then live. Zero phone calls, zero scheduled meetings.",
+      "Site went live at 2:47pm on 8 May 2026. The first inbound quote request landed at 3:15pm same day. <strong>28 minutes from DNS flip to a real lead in the inbox</strong> - Tony from Dicky Beach asking for rear duplex lawn mowing on a sub-100sqm yard. Rowan&apos;s first reply: <em>&ldquo;Hopefully a new world record for fastest to break the 90 day guarantee.&rdquo;</em>",
+      "Rowan is on the 12-month plan with monthly performance review and ongoing SEO work as more case-study photos come through. Note: this is an Australian client of the Loudachris parent brand and the AU sibling site (free-websites.com.au). The same free-build + monthly-subscription offer is what we deliver to US small businesses through Free SEO Websites by Loudachris. The 28-minute timing is a one-off; the build-time SEO and the 90-day qualified-lead guarantee are what made the timing possible at all.",
+    ],
+    meta: {
+      title:
+        "Lucky Duck Mowing Caloundra | First Lead 28 Min After Launch | Free SEO Websites by Loudachris",
+      description:
+        "Lucky Duck Mowing went live at 2:47pm and got its first inbound quote at 3:15pm same day. Real proof of the free-build + monthly-subscription offer Loudachris delivers to US small businesses.",
+    },
+  },
+  {
     slug: "bathroom-renovations-adelaide",
     business: "Adelaide's Bathroom Network",
     city: "Adelaide",
