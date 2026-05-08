@@ -70,19 +70,13 @@ export const metadata: Metadata = {
     title: "Free SEO Websites for US Small Businesses",
     description:
       "Free 5-day build. $247/mo for hosting + SEO. 90-day qualified-lead guarantee. Beats $2,999 upfront agency fees.",
-    images: [
-      {
-        url: "/og-image.png",
-        width: 1200,
-        height: 630,
-        alt: "Free SEO Websites by Loudachris",
-      },
-    ],
+    // og:image is auto-generated from app/opengraph-image.tsx (Next.js convention)
   },
   twitter: {
     card: "summary_large_image",
     title: "Free SEO Websites for US Small Businesses",
     description: "$247/mo. No upfront. 90-day qualified-lead guarantee.",
+    // twitter:image inherits from opengraph-image convention
   },
   robots: {
     index: true,
