@@ -42,8 +42,8 @@ const FAQS = [
     a: "US-based hosting, SSL, daily backups, security monitoring, call tracking, form tracking, monthly ranking work, monthly content piece, monthly written report, and minor edits/updates. Everything you need to keep ranking and converting.",
   },
   {
-    q: "Do prices include sales tax?",
-    a: "All prices on this page are in US dollars. Any applicable state or local sales tax in your jurisdiction is your responsibility and added at invoicing as required.",
+    q: "Is there sales tax on top of the monthly fee?",
+    a: "No. The price shown is the total. All prices are in US dollars and no sales tax, GST, or VAT is added on top. Invoicing is from Loudachris Digital Marketing (Australia), and the AU-US service-export arrangement does not require collection of US state or local sales tax on the monthly Care Fee. What you see is what you pay.",
   },
   {
     q: "Can I cancel?",

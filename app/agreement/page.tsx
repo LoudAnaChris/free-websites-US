@@ -21,7 +21,7 @@ const SECTIONS = [
       "Free SEO Websites (operated by Loudachris Digital Marketing  - 'we', 'us') will design, build, and launch a website ('Site') for the Client at no upfront charge. The Client pays a recurring monthly fee ('Care Fee') for hosting, security, ranking work, monthly content, monitoring, and minor edits.",
       "Three Care Fee plans:",
       "<ul><li><strong>$247/month</strong> USD, 12-month minimum term, price locked 24 months.</li><li><strong>$397/month</strong> USD, 6-month minimum term.</li><li><strong>$497/month</strong> USD, no minimum term, cancel any time with 30 days notice.</li></ul>",
-      "All prices are in US dollars and exclusive of any applicable state or local sales taxes that may apply to the Client's jurisdiction.",
+      "All prices are in US dollars. The monthly figure shown is the total Care Fee. No sales tax, GST, or VAT is added; invoicing is from Loudachris Digital Marketing (Australia) and the AU-US service-export arrangement does not require collection of US state or local sales tax on the Care Fee.",
     ],
   },
   {
