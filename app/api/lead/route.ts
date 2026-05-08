@@ -35,7 +35,7 @@ export async function POST(request: Request) {
     const from =
       process.env.FROM_EMAIL ||
       process.env.RESEND_FROM ||
-      "Free SEO Websites <freewebsitesUK@loudachriswebsites.com.au>";
+      "Free SEO Websites <freewebsitesUS@loudachriswebsites.com.au>";
 
     if (!apiKey) {
       console.error("RESEND_API_KEY not configured");
