@@ -340,66 +340,90 @@ export default async function CaseStudyPage({
                 </p>
               </Reveal>
 
-              <div className="grid gap-6 lg:grid-cols-2">
+              <div className="grid gap-6 lg:grid-cols-2 items-stretch">
                 <Reveal>
                   <figure
-                    className="relative rounded-[14px] overflow-hidden"
+                    className="relative rounded-[14px] overflow-hidden h-full flex flex-col"
                     style={{
                       boxShadow: "0 18px 40px -16px rgba(18,41,51,0.25)",
-                      border: "1px solid var(--hair-strong)",
+                      border: "2px solid var(--hair-strong)",
                       background: "white",
                     }}
                   >
-                    <Image
-                      src="/case-study-lucky-duck-mowing-before.png"
-                      alt="Lucky Duck Mowing previous website (before rebuild) - dated brochure design with no service-specific pages, no schema, and no lead tracking."
-                      width={1200}
-                      height={2400}
-                      className="w-full h-auto block"
-                    />
-                    <figcaption
-                      className="px-5 py-3 text-xs"
+                    <div
+                      className="relative w-full overflow-hidden"
                       style={{
-                        background: "var(--color-platinum)",
-                        borderTop: "1px solid var(--hair)",
-                        color: "var(--color-ink-3)",
-                        fontFamily: "var(--font-mono)",
-                        letterSpacing: "0.08em",
-                        textTransform: "uppercase",
+                        aspectRatio: "4 / 5",
+                        background: "white",
                       }}
                     >
-                      Before
+                      <Image
+                        src="/case-study-lucky-duck-mowing-before.png"
+                        alt="Lucky Duck Mowing previous website (before rebuild) - dated brochure design with no service-specific pages, no schema, and no lead tracking."
+                        width={1920}
+                        height={4872}
+                        className="absolute inset-0 w-full h-auto block"
+                        style={{ objectFit: "cover", objectPosition: "top" }}
+                      />
+                    </div>
+                    <figcaption
+                      className="px-5 py-4 text-xs flex items-center justify-between"
+                      style={{
+                        background: "var(--color-ink)",
+                        color: "white",
+                        fontFamily: "var(--font-mono)",
+                        letterSpacing: "0.12em",
+                        textTransform: "uppercase",
+                        fontWeight: 700,
+                      }}
+                    >
+                      <span>Before</span>
+                      <span style={{ color: "rgba(255,255,255,0.6)", fontWeight: 400 }}>
+                        Dated brochure, no SEO
+                      </span>
                     </figcaption>
                   </figure>
                 </Reveal>
                 <Reveal delay={120}>
                   <figure
-                    className="relative rounded-[14px] overflow-hidden"
+                    className="relative rounded-[14px] overflow-hidden h-full flex flex-col"
                     style={{
-                      boxShadow: "0 18px 40px -16px rgba(18,41,51,0.25)",
-                      border: "1px solid var(--hair-strong)",
+                      boxShadow: "0 18px 40px -16px rgba(227,87,171,0.30)",
+                      border: "2px solid var(--color-rose)",
                       background: "white",
                     }}
                   >
-                    <Image
-                      src="/case-study-lucky-duck-mowing.png"
-                      alt="Lucky Duck Mowing rebuilt website (after) - service-specific pages, LocalBusiness and FAQPage schema, 10km Caloundra suburb coverage, before-and-after gallery, clean FAQ, and direct-to-inbox contact form."
-                      width={1200}
-                      height={2400}
-                      className="w-full h-auto block"
-                    />
-                    <figcaption
-                      className="px-5 py-3 text-xs"
+                    <div
+                      className="relative w-full overflow-hidden"
                       style={{
-                        background: "var(--color-platinum)",
-                        borderTop: "1px solid var(--hair)",
-                        color: "var(--color-ink-3)",
-                        fontFamily: "var(--font-mono)",
-                        letterSpacing: "0.08em",
-                        textTransform: "uppercase",
+                        aspectRatio: "4 / 5",
+                        background: "white",
                       }}
                     >
-                      After
+                      <Image
+                        src="/case-study-lucky-duck-mowing.png"
+                        alt="Lucky Duck Mowing rebuilt website (after) - service-specific pages, LocalBusiness and FAQPage schema, 10km Caloundra suburb coverage, before-and-after gallery, clean FAQ, and direct-to-inbox contact form."
+                        width={1920}
+                        height={11177}
+                        className="absolute inset-0 w-full h-auto block"
+                        style={{ objectFit: "cover", objectPosition: "top" }}
+                      />
+                    </div>
+                    <figcaption
+                      className="px-5 py-4 text-xs flex items-center justify-between"
+                      style={{
+                        background: "var(--color-rose)",
+                        color: "white",
+                        fontFamily: "var(--font-mono)",
+                        letterSpacing: "0.12em",
+                        textTransform: "uppercase",
+                        fontWeight: 700,
+                      }}
+                    >
+                      <span>After</span>
+                      <span style={{ color: "rgba(255,255,255,0.85)", fontWeight: 400 }}>
+                        First lead in 28 minutes
+                      </span>
                     </figcaption>
                   </figure>
                 </Reveal>
