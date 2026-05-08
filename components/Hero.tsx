@@ -34,19 +34,22 @@ export function Hero() {
       <div className="container-x relative">
         <div className="text-center max-w-[960px] mx-auto">
           <span className="eyebrow on-light">Small business web design + SEO, US</span>
-          <h1 className="mt-5">
+          <h1 className="mt-5" style={{ textWrap: "balance" }}>
             Free SEO Websites for{" "}
             <span className="rose-underline">US small businesses.</span>
             <br />
-            $247/mo. Leads in 90, guaranteed.
+            Leads in 90 days, guaranteed.
           </h1>
           <p
-            className="mt-7 text-lg sm:text-xl max-w-2xl mx-auto"
-            style={{ color: "var(--color-ink-2)", lineHeight: 1.55 }}
+            className="mt-7 text-lg sm:text-xl max-w-xl mx-auto"
+            style={{
+              color: "var(--color-ink-2)",
+              lineHeight: 1.55,
+              textWrap: "balance",
+            }}
           >
-            A done-for-you small business web design with local SEO bundled.
-            Live in 5 working days. Zero upfront. Compare to $2,999 upfront
-            fees elsewhere.
+            Done-for-you small business web design with local SEO bundled.
+            Live in 5 working days. Zero upfront. Beats $2,999 agency fees.
           </p>
 
           <div className="mt-8 flex items-center justify-center gap-4 flex-wrap">
