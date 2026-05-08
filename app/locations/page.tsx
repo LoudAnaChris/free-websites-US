@@ -11,16 +11,37 @@ import { LOCATIONS } from "@/lib/locations";
 
 export const metadata: Metadata = {
   title: "Free Websites by City | NYC, LA, Chicago, Houston & More",
-  description: `Loudachris builds free SEO websites for US small businesses across 14 major cities. Find your city below or email ${SITE.email}.`,
+  description: `Loudachris builds free SEO websites for US small businesses across ${LOCATIONS.length} major US metros. Find your city below or email ${SITE.email}.`,
   alternates: { canonical: `${SITE.url}/locations` },
 };
 
-// US regional groupings  - Northeast, South, Midwest, West
+// US regional groupings - Northeast, South, Midwest, West (per US Census regions)
 const REGION_GROUPS: { region: string; states: string[] }[] = [
-  { region: "Northeast", states: ["NY", "PA"] },
-  { region: "South", states: ["TX", "FL", "NC"] },
-  { region: "Midwest", states: ["IL", "OH", "IN"] },
-  { region: "West", states: ["CA", "AZ"] },
+  {
+    region: "Northeast",
+    states: ["NY", "PA", "MA", "CT", "NJ", "RI", "NH", "VT", "ME"],
+  },
+  {
+    region: "South",
+    states: [
+      "TX", "FL", "NC", "SC", "GA", "TN", "AL", "MS", "LA", "AR",
+      "OK", "KY", "WV", "VA", "MD", "DC", "DE",
+    ],
+  },
+  {
+    region: "Midwest",
+    states: [
+      "IL", "OH", "IN", "MI", "WI", "MN", "IA", "MO", "ND", "SD",
+      "NE", "KS",
+    ],
+  },
+  {
+    region: "West",
+    states: [
+      "CA", "AZ", "NV", "CO", "OR", "WA", "UT", "ID", "MT", "WY",
+      "AK", "HI", "NM",
+    ],
+  },
 ];
 
 const REGION_DATA = REGION_GROUPS.map((g) => ({
@@ -73,7 +94,7 @@ export default function LocationsHubPage() {
             <span className="rose-underline">small businesses across the US.</span>
           </>
         }
-        subtitle={`We build SEO websites for US small businesses in 14 major cities  - from NYC to Phoenix to Indianapolis. Each city page is built around the local search market and the businesses who'd actually choose us.`}
+        subtitle={`We build SEO websites for US small businesses in every major metro - coast to coast, ${LOCATIONS.length} cities and counting. Each city page is built around the local search market, the dominant industries, and the SERP density specific to that metro.`}
         ctaLabel="See if I qualify"
         ctaHref="/#qualifier"
       />

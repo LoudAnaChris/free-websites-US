@@ -71,54 +71,90 @@ export const SITE = {
   ],
 } as const;
 
-// Tier 1 launch sprint industries (per architecture spec).
-// Order reflects keyword volume + KD: plumbers (14k vol), HVAC (14k vol),
-// contractors (8.3k), electricians (3.6k), accountants (1.9k).
+// Tier 1 launch sprint industries (per architecture spec) - in nav.
+// Full list of 50+ industries lives in lib/industries.ts and is exposed via /industries hub.
+// Nav order reflects search volume + KD: plumbers, HVAC, contractors, electricians, accountants.
 export const NAV_INDUSTRIES = [
   { name: "Plumbers", href: "/industries/plumbers" },
   { name: "HVAC", href: "/industries/hvac" },
   { name: "Electricians", href: "/industries/electricians" },
   { name: "Contractors", href: "/industries/contractors" },
-  { name: "Accountants", href: "/industries/accountants" },
   { name: "Roofers", href: "/industries/roofers" },
+  { name: "Solar Installers", href: "/industries/solar-installers" },
+  { name: "Auto Repair", href: "/industries/auto-repair" },
   { name: "Landscapers", href: "/industries/landscapers" },
-  { name: "Painters", href: "/industries/painters" },
+  { name: "Pest Control", href: "/industries/pest-control" },
+  { name: "Cleaners", href: "/industries/cleaners" },
+  { name: "Movers", href: "/industries/movers" },
+  { name: "Accountants", href: "/industries/accountants" },
   { name: "Lawyers", href: "/industries/lawyers" },
-  { name: "Restaurants", href: "/industries/restaurants" },
-  { name: "Photographers", href: "/industries/photographers" },
   { name: "Real estate agents", href: "/industries/real-estate-agents" },
+  { name: "Restaurants", href: "/industries/restaurants" },
+  { name: "Med Spas", href: "/industries/med-spas" },
+  { name: "Veterinarians", href: "/industries/veterinarians" },
+  { name: "Photographers", href: "/industries/photographers" },
 ] as const;
 
 export const FOOTER_INDUSTRIES = [
+  // Trades
   { name: "Plumbers", href: "/industries/plumbers" },
   { name: "HVAC", href: "/industries/hvac" },
   { name: "Electricians", href: "/industries/electricians" },
   { name: "Contractors", href: "/industries/contractors" },
-  { name: "Accountants", href: "/industries/accountants" },
   { name: "Roofers", href: "/industries/roofers" },
+  { name: "Solar Installers", href: "/industries/solar-installers" },
+  { name: "Garage Doors", href: "/industries/garage-doors" },
+  { name: "Foundation Repair", href: "/industries/foundation-repair" },
+  { name: "Auto Repair", href: "/industries/auto-repair" },
   { name: "Landscapers", href: "/industries/landscapers" },
+  // Home services
+  { name: "Cleaners", href: "/industries/cleaners" },
+  { name: "Pest Control", href: "/industries/pest-control" },
+  { name: "Movers", href: "/industries/movers" },
+  { name: "Carpet Cleaning", href: "/industries/carpet-cleaning" },
+  { name: "Junk Removal", href: "/industries/junk-removal" },
+  // Professional
+  { name: "Accountants", href: "/industries/accountants" },
   { name: "Lawyers", href: "/industries/lawyers" },
+  { name: "Real Estate Agents", href: "/industries/real-estate-agents" },
+  { name: "Architects", href: "/industries/architects" },
+  { name: "Marketing Agencies", href: "/industries/marketing-agencies" },
+  // Lifestyle / hospitality
   { name: "Restaurants", href: "/industries/restaurants" },
+  { name: "Cafes", href: "/industries/cafes" },
+  { name: "Hair Salons", href: "/industries/hair-salons" },
+  { name: "Med Spas", href: "/industries/med-spas" },
+  { name: "Veterinarians", href: "/industries/veterinarians" },
   { name: "Photographers", href: "/industries/photographers" },
-  { name: "Hair salons", href: "/industries/hair-salons" },
-  { name: "Personal trainers", href: "/industries/personal-trainers" },
 ] as const;
 
-// US metros: Phoenix (KD 8) and Fort Worth (KD 9) are Tier 1 quick wins per spec.
+// US metros surfaced in primary nav. Full list of 65 cities lives in lib/locations.ts
+// and is exposed via the /locations hub. Order: Tier 1 quick wins first (Phoenix KD 8,
+// Fort Worth KD 9), then biggest metros, then Sunbelt growth markets.
 export const NAV_LOCATIONS = [
   { name: "Phoenix", href: "/locations/phoenix" },
   { name: "Fort Worth", href: "/locations/fort-worth" },
-  { name: "San Diego", href: "/locations/san-diego" },
-  { name: "Chicago", href: "/locations/chicago" },
-  { name: "Charlotte", href: "/locations/charlotte" },
-  { name: "Jacksonville", href: "/locations/jacksonville" },
-  { name: "Houston", href: "/locations/houston" },
-  { name: "Los Angeles", href: "/locations/los-angeles" },
-  { name: "Dallas", href: "/locations/dallas" },
-  { name: "San Antonio", href: "/locations/san-antonio" },
   { name: "New York", href: "/locations/new-york" },
+  { name: "Los Angeles", href: "/locations/los-angeles" },
+  { name: "Chicago", href: "/locations/chicago" },
+  { name: "Houston", href: "/locations/houston" },
+  { name: "Dallas", href: "/locations/dallas" },
   { name: "Philadelphia", href: "/locations/philadelphia" },
+  { name: "San Antonio", href: "/locations/san-antonio" },
+  { name: "San Diego", href: "/locations/san-diego" },
   { name: "Austin", href: "/locations/austin" },
-  { name: "Columbus", href: "/locations/columbus" },
-  { name: "Indianapolis", href: "/locations/indianapolis" },
+  { name: "Jacksonville", href: "/locations/jacksonville" },
+  { name: "Charlotte", href: "/locations/charlotte" },
+  { name: "Seattle", href: "/locations/seattle" },
+  { name: "Denver", href: "/locations/denver" },
+  { name: "Washington DC", href: "/locations/washington" },
+  { name: "Boston", href: "/locations/boston" },
+  { name: "Atlanta", href: "/locations/atlanta" },
+  { name: "Miami", href: "/locations/miami" },
+  { name: "Nashville", href: "/locations/nashville" },
+  { name: "Las Vegas", href: "/locations/las-vegas" },
+  { name: "Tampa", href: "/locations/tampa" },
+  { name: "Orlando", href: "/locations/orlando" },
+  { name: "Portland", href: "/locations/portland" },
+  { name: "Minneapolis", href: "/locations/minneapolis" },
 ] as const;
