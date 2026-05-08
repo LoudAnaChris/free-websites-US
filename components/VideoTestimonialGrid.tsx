@@ -8,6 +8,11 @@ type Video = (typeof SITE.videos)[number];
 
 function VideoCard({ v }: { v: Video }) {
   const [playing, setPlaying] = useState(false);
+  // Some YouTube videos have no maxresdefault.jpg on the CDN. Fall back to
+  // hqdefault on error - it's lower res but always available.
+  const [thumbSrc, setThumbSrc] = useState(
+    `https://i.ytimg.com/vi/${v.id}/maxresdefault.jpg`
+  );
 
   return (
     <div
@@ -32,10 +37,15 @@ function VideoCard({ v }: { v: Video }) {
           <>
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src={`https://i.ytimg.com/vi/${v.id}/maxresdefault.jpg`}
+              src={thumbSrc}
               alt={`${v.name} testimonial - ${v.business} ${v.city}`}
               className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
               loading="lazy"
+              onError={() => {
+                if (thumbSrc.includes("maxresdefault")) {
+                  setThumbSrc(`https://i.ytimg.com/vi/${v.id}/hqdefault.jpg`);
+                }
+              }}
             />
             <div
               className="absolute inset-0 flex items-center justify-center transition-colors"

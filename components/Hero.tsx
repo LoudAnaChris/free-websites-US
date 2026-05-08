@@ -41,10 +41,12 @@ export function Hero() {
             Leads in 90 days, guaranteed.
           </h1>
           <p
-            className="mt-7 text-lg sm:text-xl max-w-xl mx-auto"
+            className="mt-7 text-lg sm:text-xl mx-auto"
             style={{
               color: "var(--color-ink-2)",
               lineHeight: 1.55,
+              maxWidth: "720px",
+              textAlign: "center",
               textWrap: "balance",
             }}
           >
