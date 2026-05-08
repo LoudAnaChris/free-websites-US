@@ -312,13 +312,170 @@ export default async function CaseStudyPage({
       )}
 
       {c.slug === "lucky-duck-mowing-caloundra" && (
-        <LeadEmailProof
-          eyebrow="The actual lead"
-          heading="The first Lucky Duck lead, 28 minutes after launch."
-          caption="The exact email Rowan received at 3:15pm, 28 minutes after the site went live at 2:47pm. Tony from Dicky Beach asking for rear duplex lawn mowing on a sub-100sqm yard. Personal contact details redacted. Same lead-delivery format on every Free SEO Websites build for US clients."
-          imageSrc="/lead-email-lucky-duck-mowing.png"
-          imageAlt="Real lead email from a Lucky Duck Mowing customer: name, email, phone (redacted), Dicky Beach suburb, rear duplex lawn mowing on sub-100sqm yard, full message in their own words."
-        />
+        <>
+          {/* Before / after gallery */}
+          <section
+            className="py-10"
+            style={{ background: "var(--color-platinum)" }}
+          >
+            <div className="container-x max-w-6xl">
+              <Reveal className="mb-8 text-center">
+                <span className="eyebrow on-light">Before and after</span>
+                <h2 className="mt-3">
+                  From dated brochure to lead-generation site.
+                </h2>
+                <p
+                  className="mt-4 text-base"
+                  style={{
+                    color: "var(--color-ink-2)",
+                    lineHeight: 1.6,
+                    maxWidth: 640,
+                    marginLeft: "auto",
+                    marginRight: "auto",
+                  }}
+                >
+                  Same brand, same business, same Caloundra service area. The
+                  rebuild was about page architecture, schema, and matching
+                  the searches Lucky Duck&apos;s customers actually type.
+                </p>
+              </Reveal>
+
+              <div className="grid gap-6 lg:grid-cols-2">
+                <Reveal>
+                  <figure
+                    className="relative rounded-[14px] overflow-hidden"
+                    style={{
+                      boxShadow: "0 18px 40px -16px rgba(18,41,51,0.25)",
+                      border: "1px solid var(--hair-strong)",
+                      background: "white",
+                    }}
+                  >
+                    <Image
+                      src="/case-study-lucky-duck-mowing-before.png"
+                      alt="Lucky Duck Mowing previous website (before rebuild) - dated brochure design with no service-specific pages, no schema, and no lead tracking."
+                      width={1200}
+                      height={2400}
+                      className="w-full h-auto block"
+                    />
+                    <figcaption
+                      className="px-5 py-3 text-xs"
+                      style={{
+                        background: "var(--color-platinum)",
+                        borderTop: "1px solid var(--hair)",
+                        color: "var(--color-ink-3)",
+                        fontFamily: "var(--font-mono)",
+                        letterSpacing: "0.08em",
+                        textTransform: "uppercase",
+                      }}
+                    >
+                      Before
+                    </figcaption>
+                  </figure>
+                </Reveal>
+                <Reveal delay={120}>
+                  <figure
+                    className="relative rounded-[14px] overflow-hidden"
+                    style={{
+                      boxShadow: "0 18px 40px -16px rgba(18,41,51,0.25)",
+                      border: "1px solid var(--hair-strong)",
+                      background: "white",
+                    }}
+                  >
+                    <Image
+                      src="/case-study-lucky-duck-mowing.png"
+                      alt="Lucky Duck Mowing rebuilt website (after) - service-specific pages, LocalBusiness and FAQPage schema, 10km Caloundra suburb coverage, before-and-after gallery, clean FAQ, and direct-to-inbox contact form."
+                      width={1200}
+                      height={2400}
+                      className="w-full h-auto block"
+                    />
+                    <figcaption
+                      className="px-5 py-3 text-xs"
+                      style={{
+                        background: "var(--color-platinum)",
+                        borderTop: "1px solid var(--hair)",
+                        color: "var(--color-ink-3)",
+                        fontFamily: "var(--font-mono)",
+                        letterSpacing: "0.08em",
+                        textTransform: "uppercase",
+                      }}
+                    >
+                      After
+                    </figcaption>
+                  </figure>
+                </Reveal>
+              </div>
+            </div>
+          </section>
+
+          <LeadEmailProof
+            eyebrow="The actual lead"
+            heading="The first Lucky Duck lead, 28 minutes after launch."
+            caption="The exact email Rowan received at 3:15pm, 28 minutes after the site went live at 2:47pm. Tony from Dicky Beach asking for rear duplex lawn mowing on a sub-100sqm yard. Personal contact details redacted. Same lead-delivery format on every Free SEO Websites build for US clients."
+            imageSrc="/lead-email-lucky-duck-mowing.png"
+            imageAlt="Real lead email from a Lucky Duck Mowing customer: name, email, phone (redacted), Dicky Beach suburb, rear duplex lawn mowing on sub-100sqm yard, full message in their own words."
+          />
+
+          {/* Rowan's Google review */}
+          <section
+            className="section"
+            style={{ background: "white" }}
+          >
+            <div className="container-x max-w-3xl">
+              <Reveal className="mb-7 text-center">
+                <span className="eyebrow on-light">In Rowan&apos;s words</span>
+                <h2 className="mt-3">What it felt like from the client side.</h2>
+              </Reveal>
+              <Reveal delay={120}>
+                <blockquote
+                  className="rounded-[18px] p-8 sm:p-10"
+                  style={{
+                    background: "var(--color-platinum)",
+                    border: "1px solid var(--hair-strong)",
+                    boxShadow: "0 14px 30px -16px rgba(18,41,51,0.18)",
+                  }}
+                >
+                  <div
+                    className="text-base mb-4"
+                    style={{
+                      color: "var(--color-rose)",
+                      letterSpacing: "0.06em",
+                    }}
+                    aria-label="Five out of five stars"
+                  >
+                    ★★★★★
+                  </div>
+                  <p
+                    className="text-lg sm:text-xl"
+                    style={{
+                      color: "var(--color-ink-2)",
+                      lineHeight: 1.65,
+                    }}
+                  >
+                    &ldquo;Chris is a true superstar! I stumbled across
+                    Loudachris Digital Marketing and I&apos;m so happy I did.
+                    Everything was able to be done via email, no 1 hour
+                    wasted on a sales pitch as the pricing was clear and
+                    upfront. Super fast turnaround on my new website,
+                    looking forward to a long working partnership and Chris
+                    bringing me more leads so I can expand my
+                    business.&rdquo;
+                  </p>
+                  <footer
+                    className="mt-6 text-sm"
+                    style={{
+                      color: "var(--color-ink-3)",
+                      fontFamily: "var(--font-mono)",
+                      letterSpacing: "0.04em",
+                    }}
+                  >
+                    Rowan Barber, Lucky Duck Mowing &middot; Posted to
+                    Google, 7 May 2026
+                  </footer>
+                </blockquote>
+              </Reveal>
+            </div>
+          </section>
+        </>
       )}
 
       <FinalCTA

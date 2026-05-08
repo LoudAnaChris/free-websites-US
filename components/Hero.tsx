@@ -58,6 +58,48 @@ export function Hero() {
             </Link>
           </div>
 
+          {/* Hero proof pill: latest free-subscription case study */}
+          <Link
+            href="/case-studies/lucky-duck-mowing-caloundra"
+            className="mt-7 inline-flex items-center gap-3 px-4 py-2.5 rounded-full transition-all hover:translate-y-[-1px]"
+            style={{
+              background: "var(--rose-soft)",
+              border: "1px solid var(--rose-line)",
+              fontFamily: "var(--font-display)",
+              boxShadow: "0 6px 20px -8px rgba(227,87,171,0.35)",
+            }}
+          >
+            <span
+              className="text-xs font-bold uppercase"
+              style={{
+                fontFamily: "var(--font-mono)",
+                letterSpacing: "0.14em",
+                color: "var(--color-rose)",
+              }}
+            >
+              Latest build
+            </span>
+            <span
+              className="w-px h-4"
+              style={{ background: "var(--rose-line)" }}
+              aria-hidden
+            />
+            <span
+              className="text-sm sm:text-base"
+              style={{ color: "var(--color-ink)", fontWeight: 600 }}
+            >
+              <strong style={{ color: "var(--color-rose)" }}>
+                First lead 28 minutes after launch
+              </strong>{" "}
+              · Lucky Duck Mowing
+            </span>
+            <ArrowRight
+              size={14}
+              strokeWidth={2.5}
+              style={{ color: "var(--color-rose)" }}
+            />
+          </Link>
+
           <p className="trust-strip" style={{ justifyContent: "center" }}>
             <span>
               <strong style={{ color: "var(--color-ink)" }}>80+</strong>{" "}

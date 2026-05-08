@@ -14,12 +14,12 @@ type ProofItem = {
 
 const proof: ProofItem[] = [
   {
-    industry: "Bathroom Renovations · Adelaide",
-    domain: "bathroomrenovationsadelaide.com.au",
-    metric: "Ranking inside 8 weeks. Strong before-and-after gallery.",
-    href: "/case-studies/bathroom-renovations-adelaide",
-    live: "https://bathroomrenovationsadelaide.com.au",
-    screenshot: "/case-study-bathroom-renovations-adelaide.jpg",
+    industry: "Lawn Care · Caloundra",
+    domain: "luckyduckmowing.com.au",
+    metric: "First lead <strong>28 minutes</strong> after launch",
+    href: "/case-studies/lucky-duck-mowing-caloundra",
+    live: "https://luckyduckmowing.com.au",
+    screenshot: "/case-study-lucky-duck-mowing.png",
   },
   {
     industry: "Pool Resurfacing · Adelaide",
@@ -28,6 +28,14 @@ const proof: ProofItem[] = [
     href: "/case-studies/pool-resurfacing-adelaide",
     live: "https://poolresurfacingadelaide.com.au",
     screenshot: "/case-study-pool-resurfacing-adelaide.jpg",
+  },
+  {
+    industry: "Bathroom Renovations · Adelaide",
+    domain: "bathroomrenovationsadelaide.com.au",
+    metric: "Ranking inside 8 weeks. Strong before-and-after gallery.",
+    href: "/case-studies/bathroom-renovations-adelaide",
+    live: "https://bathroomrenovationsadelaide.com.au",
+    screenshot: "/case-study-bathroom-renovations-adelaide.jpg",
   },
   {
     industry: "Underpinning · Sydney",

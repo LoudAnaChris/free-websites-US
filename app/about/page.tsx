@@ -118,6 +118,77 @@ export default function AboutPage() {
             </div>
           </Reveal>
 
+          {/* Latest review - Rowan, Lucky Duck Mowing */}
+          <Reveal delay={120}>
+            <blockquote
+              className="rounded-[18px] p-7 sm:p-8 mb-12"
+              style={{
+                background: "var(--color-platinum)",
+                border: "1px solid var(--hair-strong)",
+                boxShadow: "0 14px 30px -16px rgba(18,41,51,0.18)",
+              }}
+            >
+              <div className="flex items-center gap-3 mb-4 flex-wrap">
+                <span
+                  className="text-base"
+                  style={{
+                    color: "var(--color-rose)",
+                    letterSpacing: "0.06em",
+                  }}
+                  aria-label="Five out of five stars"
+                >
+                  ★★★★★
+                </span>
+                <span
+                  className="text-xs"
+                  style={{
+                    fontFamily: "var(--font-mono)",
+                    letterSpacing: "0.12em",
+                    textTransform: "uppercase",
+                    color: "var(--color-rose)",
+                    fontWeight: 700,
+                  }}
+                >
+                  Latest review &middot; 7 May 2026
+                </span>
+              </div>
+              <p
+                className="text-lg"
+                style={{
+                  color: "var(--color-ink-2)",
+                  lineHeight: 1.65,
+                }}
+              >
+                &ldquo;Chris is a true superstar! I stumbled across Loudachris
+                Digital Marketing and I&apos;m so happy I did. Everything was
+                able to be done via email, no 1 hour wasted on a sales pitch
+                as the pricing was clear and upfront. Super fast turnaround
+                on my new website, looking forward to a long working
+                partnership and Chris bringing me more leads so I can expand
+                my business.&rdquo;
+              </p>
+              <footer
+                className="mt-5 text-sm"
+                style={{
+                  color: "var(--color-ink-3)",
+                  fontFamily: "var(--font-mono)",
+                  letterSpacing: "0.04em",
+                }}
+              >
+                Rowan Barber, Lucky Duck Mowing (Caloundra QLD) &middot;{" "}
+                <Link
+                  href="/case-studies/lucky-duck-mowing-caloundra"
+                  style={{
+                    color: "var(--color-rose)",
+                    fontWeight: 700,
+                  }}
+                >
+                  Read the case study (28-min first lead)
+                </Link>
+              </footer>
+            </blockquote>
+          </Reveal>
+
           <Reveal>
             <h2>Founder: Chris Lourenco.</h2>
             <p
