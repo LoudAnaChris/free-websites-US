@@ -52,7 +52,7 @@ export function AnnouncementBar({ slotsLeft = 3 }: { slotsLeft?: number }) {
     >
       <span className="hidden sm:inline">
         <strong className="font-extrabold">{slotsLeft} free website slots</strong>{" "}
-        open this month. Doors close Sunday at midnight.
+        open this week. Doors close Sunday at midnight.
       </span>
       <span className="sm:hidden">
         <strong className="font-extrabold">{slotsLeft} slots</strong> · Sunday close
