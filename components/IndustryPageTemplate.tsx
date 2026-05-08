@@ -55,6 +55,10 @@ import { SITE } from "@/lib/site";
 import type { Industry } from "@/lib/industry-types";
 import { INDUSTRIES } from "@/lib/industries";
 import { LOCATIONS } from "@/lib/locations";
+import {
+  CROSSOVER_INDUSTRY_SLUGS,
+  CROSSOVER_CITY_SLUGS,
+} from "@/lib/crossover-pairs";
 
 const ICON_MAP: Record<string, LucideIcon> = {
   Wrench,
@@ -400,22 +404,72 @@ export function IndustryPageTemplate({ industry }: { industry: Industry }) {
                   </h2>
                 </Reveal>
                 <div className="flex flex-wrap justify-center gap-3">
-                  {topCityData.map((city) => (
-                    <Link
-                      key={city!.slug}
-                      href={`/locations/${city!.slug}`}
-                      className="inline-flex items-center gap-1.5 px-4 py-2 rounded-full text-sm font-semibold transition-all"
-                      style={{
-                        background: "white",
-                        border: "1px solid var(--hair-strong)",
-                        color: "var(--color-ink)",
-                        fontFamily: "var(--font-display)",
-                      }}
-                    >
-                      <MapPin size={14} /> {city!.city}{" "}
-                      <ArrowRight size={14} strokeWidth={2.5} />
-                    </Link>
-                  ))}
+                  {topCityData.map((city) => {
+                    const hasCrossover =
+                      (CROSSOVER_INDUSTRY_SLUGS as readonly string[]).includes(
+                        industry.slug
+                      ) &&
+                      (CROSSOVER_CITY_SLUGS as readonly string[]).includes(
+                        city!.slug
+                      );
+                    const href = hasCrossover
+                      ? `/industries/${industry.slug}/${city!.slug}`
+                      : `/locations/${city!.slug}`;
+                    return (
+                      <Link
+                        key={city!.slug}
+                        href={href}
+                        className="inline-flex items-center gap-1.5 px-4 py-2 rounded-full text-sm font-semibold transition-all"
+                        style={{
+                          background: "white",
+                          border: "1px solid var(--hair-strong)",
+                          color: "var(--color-ink)",
+                          fontFamily: "var(--font-display)",
+                        }}
+                      >
+                        <MapPin size={14} />
+                        {hasCrossover
+                          ? `${industry.name} ${city!.city}`
+                          : city!.city}{" "}
+                        <ArrowRight size={14} strokeWidth={2.5} />
+                      </Link>
+                    );
+                  })}
+                </div>
+              </div>
+            )}
+
+            {/* Full crossover city list for crossover-eligible industries */}
+            {(CROSSOVER_INDUSTRY_SLUGS as readonly string[]).includes(
+              industry.slug
+            ) && (
+              <div className="mt-12">
+                <Reveal className="mb-7 text-center">
+                  <span className="eyebrow on-light">All cities</span>
+                  <h2 className="mt-4">
+                    {industry.name} websites in 20 major US metros.
+                  </h2>
+                </Reveal>
+                <div className="flex flex-wrap justify-center gap-2">
+                  {CROSSOVER_CITY_SLUGS.map((citySlug) => {
+                    const city = LOCATIONS.find((l) => l.slug === citySlug);
+                    if (!city) return null;
+                    return (
+                      <Link
+                        key={citySlug}
+                        href={`/industries/${industry.slug}/${citySlug}`}
+                        className="inline-flex items-center gap-1 px-3 py-1.5 rounded-full text-xs font-semibold transition-all"
+                        style={{
+                          background: "var(--color-platinum)",
+                          border: "1px solid var(--hair)",
+                          color: "var(--color-ink-2)",
+                          fontFamily: "var(--font-display)",
+                        }}
+                      >
+                        {city.city}
+                      </Link>
+                    );
+                  })}
                 </div>
               </div>
             )}

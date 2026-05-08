@@ -16,6 +16,10 @@ import {
 import { SITE } from "@/lib/site";
 import { INDUSTRIES } from "@/lib/industries";
 import type { Location } from "@/lib/industry-types";
+import {
+  CROSSOVER_INDUSTRY_SLUGS,
+  CROSSOVER_CITY_SLUGS,
+} from "@/lib/crossover-pairs";
 
 export function LocationPageTemplate({ location }: { location: Location }) {
   const breadcrumbs = [
@@ -149,42 +153,92 @@ export function LocationPageTemplate({ location }: { location: Location }) {
             </Reveal>
 
             <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-              {topIndustryData.map((industry, i) => (
-                <Reveal key={industry!.slug} delay={i * 60}>
+              {topIndustryData.map((industry, i) => {
+                const hasCrossover =
+                  (CROSSOVER_INDUSTRY_SLUGS as readonly string[]).includes(
+                    industry!.slug
+                  ) &&
+                  (CROSSOVER_CITY_SLUGS as readonly string[]).includes(
+                    location.slug
+                  );
+                const href = hasCrossover
+                  ? `/industries/${industry!.slug}/${location.slug}`
+                  : `/industries/${industry!.slug}`;
+                return (
+                  <Reveal key={industry!.slug} delay={i * 60}>
+                    <Link
+                      href={href}
+                      className="block p-6 rounded-[16px] h-full transition-transform hover:-translate-y-1 group"
+                      style={{
+                        background: "white",
+                        border: "1px solid var(--hair-strong)",
+                        boxShadow: "0 12px 30px -16px rgba(18,41,51,0.12)",
+                      }}
+                    >
+                      <h3 className="mb-3" style={{ fontSize: 20 }}>
+                        {industry!.name} in {location.city}
+                      </h3>
+                      <p
+                        className="text-sm"
+                        style={{
+                          color: "var(--color-ink-2)",
+                          lineHeight: 1.55,
+                        }}
+                      >
+                        {industry!.meta.description}
+                      </p>
+                      <span
+                        className="inline-flex items-center gap-1 text-sm mt-4 transition-transform group-hover:translate-x-1"
+                        style={{
+                          color: "var(--color-rose)",
+                          fontWeight: 700,
+                        }}
+                      >
+                        See {industry!.name.toLowerCase()} in {location.city}{" "}
+                        <ArrowRight size={14} strokeWidth={2.5} />
+                      </span>
+                    </Link>
+                  </Reveal>
+                );
+              })}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* Full crossover industry list for crossover-eligible cities */}
+      {(CROSSOVER_CITY_SLUGS as readonly string[]).includes(location.slug) && (
+        <section
+          className="section"
+          style={{ background: "white" }}
+        >
+          <div className="container-x max-w-5xl">
+            <Reveal className="mb-7 text-center">
+              <span className="eyebrow on-light">All verticals</span>
+              <h2 className="mt-4">
+                {location.city} websites by industry.
+              </h2>
+            </Reveal>
+            <div className="flex flex-wrap justify-center gap-2">
+              {CROSSOVER_INDUSTRY_SLUGS.map((industrySlug) => {
+                const industry = INDUSTRIES.find((i) => i.slug === industrySlug);
+                if (!industry) return null;
+                return (
                   <Link
-                    href={`/industries/${industry!.slug}`}
-                    className="block p-6 rounded-[16px] h-full transition-transform hover:-translate-y-1 group"
+                    key={industrySlug}
+                    href={`/industries/${industrySlug}/${location.slug}`}
+                    className="inline-flex items-center gap-1 px-3 py-1.5 rounded-full text-xs font-semibold transition-all"
                     style={{
-                      background: "white",
-                      border: "1px solid var(--hair-strong)",
-                      boxShadow: "0 12px 30px -16px rgba(18,41,51,0.12)",
+                      background: "var(--color-platinum)",
+                      border: "1px solid var(--hair)",
+                      color: "var(--color-ink-2)",
+                      fontFamily: "var(--font-display)",
                     }}
                   >
-                    <h3 className="mb-3" style={{ fontSize: 20 }}>
-                      {industry!.name} in {location.city}
-                    </h3>
-                    <p
-                      className="text-sm"
-                      style={{
-                        color: "var(--color-ink-2)",
-                        lineHeight: 1.55,
-                      }}
-                    >
-                      {industry!.meta.description}
-                    </p>
-                    <span
-                      className="inline-flex items-center gap-1 text-sm mt-4 transition-transform group-hover:translate-x-1"
-                      style={{
-                        color: "var(--color-rose)",
-                        fontWeight: 700,
-                      }}
-                    >
-                      See {industry!.name.toLowerCase()}{" "}
-                      <ArrowRight size={14} strokeWidth={2.5} />
-                    </span>
+                    {industry.name}
                   </Link>
-                </Reveal>
-              ))}
+                );
+              })}
             </div>
           </div>
         </section>

@@ -3,8 +3,9 @@ import { SITE } from "@/lib/site";
 import { CASE_STUDIES } from "@/lib/case-studies";
 import { INDUSTRIES } from "@/lib/industries";
 import { LOCATIONS } from "@/lib/locations";
+import { CROSSOVER_PAIRS } from "@/lib/crossover-pairs";
 
-const NOW = "2026-05-07T00:00:00+09:30";
+const NOW = "2026-05-08T00:00:00+09:30";
 
 const RESOURCE_SLUGS = [
   "why-website-important-small-business",
@@ -58,7 +59,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     changeFrequency: "monthly" as const,
   }));
 
-  return [...staticRoutes, ...industryRoutes, ...locationRoutes, ...caseStudyRoutes, ...resourceRoutes].map(
+  // Industry x City crossover pages (e.g. /industries/plumbers/phoenix)
+  // 20 priority industries x 20 priority cities = 400 high-intent local SEO pages
+  const crossoverRoutes = CROSSOVER_PAIRS.map((pair) => ({
+    path: `/industries/${pair.industry}/${pair.city}`,
+    priority: 0.8,
+    changeFrequency: "monthly" as const,
+  }));
+
+  return [...staticRoutes, ...industryRoutes, ...locationRoutes, ...caseStudyRoutes, ...resourceRoutes, ...crossoverRoutes].map(
     (r) => ({
       url: `${SITE.url}${r.path}`,
       lastModified: NOW,
