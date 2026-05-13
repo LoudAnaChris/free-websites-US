@@ -3,8 +3,20 @@
 import { useState } from "react";
 import { Play } from "lucide-react";
 import { SITE } from "@/lib/site";
+import { CASE_STUDIES } from "@/lib/case-studies";
 
 type Video = (typeof SITE.videos)[number];
+
+function labelFor(v: Video): string {
+  const cs = CASE_STUDIES.find((c) => c.slug === v.slug);
+  if (cs?.buildType === "free-subscription") {
+    return `${v.city} · Free SEO Websites build`;
+  }
+  if (cs?.buildType === "full-service") {
+    return `${v.city} · Loudachris full-service`;
+  }
+  return `${v.city} · Loudachris case study`;
+}
 
 function VideoCard({ v }: { v: Video }) {
   const [playing, setPlaying] = useState(false);
@@ -82,7 +94,7 @@ function VideoCard({ v }: { v: Video }) {
             color: "var(--color-indigo)",
           }}
         >
-          {v.city} · Free build case study
+          {labelFor(v)}
         </div>
         <div className="font-extrabold text-lg leading-tight" style={{ fontFamily: "var(--font-display)" }}>
           {v.name}
@@ -103,7 +115,7 @@ export function VideoTestimonialGrid({
 }) {
   return (
     <div
-      className={`grid gap-5 sm:gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 ${className}`}
+      className={`grid gap-5 sm:gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 ${className}`}
     >
       {SITE.videos.map((v) => (
         <VideoCard key={v.id} v={v} />

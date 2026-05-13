@@ -39,6 +39,16 @@ export const SITE = {
   // are identical; only the locale targeting differs).
   videos: [
     {
+      id: "-4RTsjpk7Og",
+      name: "Rowan Barber",
+      business: "Lucky Duck Mowing",
+      city: "Caloundra",
+      outcome: "First lead 28 minutes after launch",
+      industry: "landscapers",
+      slug: "lucky-duck-mowing-caloundra",
+      uploadDate: "2026-05-11T10:00:00+09:30",
+    },
+    {
       id: "AAelWSuGzAE",
       name: "Adam Nettleton",
       business: "Adam Plumbing and Gas",

@@ -23,6 +23,7 @@ export const CASE_STUDIES: CaseStudy[] = [
     industryHref: "/industries/landscapers",
     liveSite: "https://luckyduckmowing.com.au",
     buildType: "free-subscription",
+    videoId: "-4RTsjpk7Og",
     screenshot: "/case-study-lucky-duck-mowing.png",
     outcome: "First lead 28 minutes after launch",
     metrics: [
